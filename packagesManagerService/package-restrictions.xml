@@ -1,0 +1,2439 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<package-restrictions>
+    <pkg name="com.google.android.networkstack.tethering" ceDataInode="327682" />
+    <pkg name="com.amazon.mShop.android.shopping" ceDataInode="327685">
+        <enabled-components>
+            <item name="com.amazon.identity.auth.device.bootstrapSSO.BootstrapSSOService" />
+            <item name="com.amazon.identity.auth.device.storage.LambortishClock$ChangeTimestampsBroadcastReceiver" />
+        </enabled-components>
+        <disabled-components>
+            <item name="com.amazon.identity.auth.accounts.SessionUserChangedToAccountForPackageChangedAdpater" />
+        </disabled-components>
+    </pkg>
+    <pkg name="com.mediatek.ims" ceDataInode="327688" />
+    <pkg name="com.android.cts.priv.ctsshim" ceDataInode="327691" />
+    <pkg name="com.google.android.youtube" ceDataInode="327694" domainVerificationStatus="2" app-link-generation="1">
+        <enabled-components>
+            <item name="com.google.android.youtube.ManageNetworkUsageActivity" />
+            <item name="androidx.work.impl.background.systemalarm.RescheduleReceiver" />
+            <item name="androidx.work.impl.background.systemjob.SystemJobService" />
+        </enabled-components>
+    </pkg>
+    <pkg name="com.android.internal.display.cutout.emulation.corner" ceDataInode="327697" />
+    <pkg name="com.google.android.ext.services" ceDataInode="327700" />
+    <pkg name="com.android.internal.display.cutout.emulation.double" ceDataInode="327703" />
+    <pkg name="com.android.providers.telephony" ceDataInode="327706" />
+    <pkg name="com.android.dynsystem" ceDataInode="327709" />
+    <pkg name="com.android.theme.icon.pebble" ceDataInode="327712" />
+    <pkg name="com.google.android.googlequicksearchbox" ceDataInode="327715" domainVerificationStatus="2" app-link-generation="15">
+        <enabled-components>
+            <item name="com.android.launcher3.LauncherProvider" />
+            <item name="com.google.android.apps.gsa.staticplugins.opa.EnterOpaActivityFromDeeplink" />
+            <item name="com.android.launcher3.AppWidgetsRestoredReceiver" />
+            <item name="androidx.work.impl.background.systemalarm.RescheduleReceiver" />
+            <item name="com.google.android.apps.gsa.staticplugins.opa.hq.OpaHqActivity" />
+            <item name="com.google.android.apps.gsa.assistant.settings.hq.agentdirectory.AgentDirectoryActivity" />
+            <item name="androidx.work.impl.background.systemjob.SystemJobService" />
+        </enabled-components>
+        <disabled-components>
+            <item name="com.android.launcher3.InstallShortcutReceiver" />
+            <item name="com.android.launcher3.PackageSessionCommitReceiver" />
+            <item name="com.google.android.apps.gsa.staticplugins.settings.AssistantAndroidSettingsActivity" />
+            <item name="com.android.launcher3.WallpaperCropActivity" />
+            <item name="com.google.android.apps.gsa.staticplugins.opa.widget.impl.OpaWidgetProvider" />
+            <item name="com.google.android.libraries.flashmanagement.cleardatadetector.DummyReceiver" />
+            <item name="com.google.android.googlequicksearchbox.VoiceSearchActivity" />
+            <item name="com.android.launcher3.AddItemActivity" />
+            <item name="com.google.android.apps.gsa.staticplugins.mediabrowser.OpaMediaBrowserService" />
+            <item name="com.android.launcher3.StartupReceiver" />
+            <item name="com.google.android.apps.gsa.launcher.GelWallpaperPickerActivity" />
+            <item name="com.google.android.apps.gsa.staticplugins.opa.EnterOpaActivityFromLauncher" />
+            <item name="com.google.android.launcher.GEL" />
+            <item name="com.google.android.apps.gsa.deeplink.DeeplinkActivityEntrypointForSearch" />
+            <item name="com.google.android.apps.gsa.staticplugins.searchwidget.GoogleSearchWidgetProvider" />
+        </disabled-components>
+    </pkg>
+    <pkg name="com.google.android.cellbroadcastservice" ceDataInode="327718" />
+    <pkg name="com.android.providers.calendar" ceDataInode="327721" />
+    <pkg name="com.google.android.apps.googleassistant" ceDataInode="327724" enabled="1" />
+    <pkg name="com.mediatek.telephony" ceDataInode="327727" />
+    <pkg name="com.mediatek.op20.settings" ceDataInode="327730" />
+    <pkg name="com.android.providers.media" ceDataInode="327733" />
+    <pkg name="com.android.networkstack.tethering.overlay" ceDataInode="327736" />
+    <pkg name="com.google.android.onetimeinitializer" ceDataInode="327739" />
+    <pkg name="com.google.android.ext.shared" ceDataInode="327742" />
+    <pkg name="com.android.internal.systemui.navbar.gestural_wide_back" ceDataInode="327745" />
+    <pkg name="com.mediatek.location.lppe.main" ceDataInode="327748" />
+    <pkg name="com.android.wallpapercropper" ceDataInode="327751" />
+    <pkg name="com.mediatek.op07.phone" ceDataInode="327754" />
+    <pkg name="com.android.theme.icon.vessel" ceDataInode="327757" />
+    <pkg name="com.sprint.w.installer" ceDataInode="327760" enabled="1">
+        <disabled-components>
+            <item name="com.sprint.ms.smf.activities.OAuthAuthorize" />
+            <item name="com.sprint.ms.smf.activities.CallingPlusQuickStartActivity" />
+            <item name="com.sprint.ms.smf.activities.PermissionsActivity" />
+            <item name="com.sprint.ms.smf.activities.VolteHelpActivity" />
+            <item name="com.sprint.ms.smf.activities.VowifiEnablement" />
+            <item name="com.sprint.ms.smf.activities.CallingPlusHelpActivity" />
+        </disabled-components>
+    </pkg>
+    <pkg name="com.android.theme.color.cinnamon" ceDataInode="327763" />
+    <pkg name="com.mediatek.SettingsProviderResOverlay" ceDataInode="327766" />
+    <pkg name="com.mediatek.gnss.nonframeworklbs" ceDataInode="327769" />
+    <pkg name="com.mediatek.systemuiresoverlay" ceDataInode="327772" />
+    <pkg name="com.android.theme.icon_pack.rounded.systemui" ceDataInode="327775" />
+    <pkg name="com.android.networkstack.tethering.inprocess.overlay" ceDataInode="327778" />
+    <pkg name="com.android.theme.icon.taperedrect" ceDataInode="327781" />
+    <pkg name="com.myos.camera" ceDataInode="327784" />
+    <pkg name="com.android.wifi.resources.overlay" ceDataInode="327787" />
+    <pkg name="com.tinno.hiddenmenu" ceDataInode="327790" />
+    <pkg name="com.android.externalstorage" ceDataInode="327793" />
+    <pkg name="com.mediatek.ygps" ceDataInode="327796" />
+    <pkg name="com.mediatek.simprocessor" ceDataInode="327799" />
+    <pkg name="com.android.htmlviewer" ceDataInode="327802" />
+    <pkg name="com.mediatek.autodialer" ceDataInode="327805" />
+    <pkg name="com.android.companiondevicemanager" ceDataInode="327808" />
+    <pkg name="com.android.mms.service" ceDataInode="327811" />
+    <pkg name="com.android.providers.downloads" ceDataInode="327814" />
+    <pkg name="com.google.android.apps.messaging" ceDataInode="327817" domainVerificationStatus="2" app-link-generation="13">
+        <enabled-components>
+            <item name="com.google.android.apps.messaging.shared.fcm.impl.BugleFirebaseMessagingService" />
+            <item name="com.google.android.apps.messaging.ui.conversationlist.VideoShareIntentActivity" />
+            <item name="com.google.android.apps.messaging.shared.receiver.RestoreReceiver" />
+            <item name="com.google.android.apps.messaging.shared.receiver.TelephonyChangeReceiver" />
+            <item name="androidx.work.impl.background.systemalarm.RescheduleReceiver" />
+            <item name="androidx.work.impl.background.systemjob.SystemJobService" />
+            <item name="com.google.android.apps.messaging.shared.receiver.DefaultSmsPackageChangedReceiver" />
+        </enabled-components>
+        <disabled-components>
+            <item name="com.google.android.ims.binding.SystemBindingService" />
+            <item name="com.google.android.apps.messaging.shared.receiver.SmsReceiver" />
+            <item name="com.google.android.apps.messaging.shared.receiver.SmsRejectedReceiver" />
+        </disabled-components>
+    </pkg>
+    <pkg name="com.google.android.networkstack.tethering.overlay" ceDataInode="327820" />
+    <pkg name="com.mediatek.engineermode" ceDataInode="327823" />
+    <pkg name="com.android.theme.icon_pack.rounded.android" ceDataInode="327826" />
+    <pkg name="com.mediatek.op20.systemui" ceDataInode="327829" />
+    <pkg name="com.mediatek.omacp" ceDataInode="327832" />
+    <pkg name="com.android.networkstack.inprocess.overlay" ceDataInode="327835" />
+    <pkg name="com.android.theme.icon_pack.circular.themepicker" ceDataInode="327838" />
+    <pkg name="com.google.android.configupdater" ceDataInode="327841" />
+    <pkg name="com.google.android.providers.media.module" ceDataInode="327844" />
+    <pkg name="com.google.android.overlay.modules.permissioncontroller" ceDataInode="327847" />
+    <pkg name="com.mediatek.op18.systemui" ceDataInode="327850" enabled="2" enabledCaller="com.mediatek.carrierexpress" />
+    <pkg name="com.android.providers.downloads.ui" ceDataInode="327853" />
+    <pkg name="com.android.vending" ceDataInode="327856" enabled="1" domainVerificationStatus="2" app-link-generation="2">
+        <enabled-components>
+            <item name="com.google.android.finsky.protect.impl.PlayProtectHomeDeepLinkActivity" />
+            <item name="com.google.android.finsky.protect.ExternalPlayProtectHomeEntryPoint" />
+            <item name="com.google.android.finsky.instantapps.ContentFilterUpdatedReceiver" />
+            <item name="com.google.android.finsky.prewarmservice.PrewarmService" />
+            <item name="com.google.android.finsky.instantapps.appmanagement.InstantAppRemoveMonitor" />
+            <item name="com.google.android.finsky.instantapps.InstantAppsConfigChangeListener" />
+            <item name="com.google.android.finsky.instantapps.EphemeralInstallerActivity" />
+            <item name="com.android.vending.AssetBrowserActivity" />
+        </enabled-components>
+        <disabled-components>
+            <item name="com.google.android.finsky.wearsupport.WearSupportService" />
+            <item name="com.google.android.finsky.systemupdateactivity.SystemUpdateActivity" />
+            <item name="com.google.android.finsky.systemupdateactivity.SettingsSecurityEntryPoint" />
+            <item name="com.google.android.finsky.setupui.VpaSelectionOptionalStepActivity" />
+            <item name="com.google.android.finsky.activities.DebugActivity" />
+            <item name="com.google.android.finsky.instantapps.dna.ArchiveDownloadBroadcastReceiver" />
+            <item name="com.google.android.finsky.wearsupport.WearChangeListenerService" />
+        </disabled-components>
+    </pkg>
+    <pkg name="com.android.pacprocessor" ceDataInode="327860" />
+    <pkg name="com.android.simappdialog" ceDataInode="327863" />
+    <pkg name="com.android.internal.display.cutout.emulation.hole" ceDataInode="327866" />
+    <pkg name="com.android.internal.display.cutout.emulation.tall" ceDataInode="327869" />
+    <pkg name="com.android.networkstack.overlay" ceDataInode="327872" />
+    <pkg name="com.android.certinstaller" ceDataInode="327875" />
+    <pkg name="com.android.theme.color.black" ceDataInode="327878" />
+    <pkg name="com.android.carrierconfig" ceDataInode="327881" />
+    <pkg name="com.google.android.marvin.talkback" ceDataInode="327884" />
+    <pkg name="com.android.theme.color.green" ceDataInode="327887" />
+    <pkg name="com.android.theme.color.ocean" ceDataInode="327890" />
+    <pkg name="com.mediatek.op08.phone" ceDataInode="327893" />
+    <pkg name="com.android.theme.color.space" ceDataInode="327896" />
+    <pkg name="com.android.internal.systemui.navbar.threebutton" ceDataInode="327899" />
+    <pkg name="android" ceDataInode="327902" />
+    <pkg name="com.mediatek.connectivity" ceDataInode="327905" />
+    <pkg name="com.android.contacts" ceDataInode="327908" />
+    <pkg name="com.mediatek.emcamera" ceDataInode="327911" />
+    <pkg name="com.ape.factory" ceDataInode="327914" />
+    <pkg name="com.mediatek.op07.telecom" ceDataInode="327917" />
+    <pkg name="com.android.theme.icon_pack.rounded.launcher" ceDataInode="327920" />
+    <pkg name="com.android.egg" ceDataInode="327923" />
+    <pkg name="com.android.mtp" ceDataInode="327926" />
+    <pkg name="com.android.nfc" ceDataInode="327929" enabled="2" enabledCaller="com.android.nfc" />
+    <pkg name="com.android.ons" ceDataInode="327932" />
+    <pkg name="com.android.stk" ceDataInode="327935" />
+    <pkg name="com.android.launcher3" ceDataInode="327938" />
+    <pkg name="com.android.backupconfirm" ceDataInode="327941" />
+    <pkg name="com.google.android.deskclock" ceDataInode="327944" />
+    <pkg name="com.android.statementservice" ceDataInode="327947" />
+    <pkg name="com.google.android.gm" ceDataInode="327950">
+        <enabled-components>
+            <item name="com.google.android.gm.widget.GmailWidgetProvider" />
+            <item name="com.android.exchange.service.CalendarSyncAdapterService" />
+            <item name="com.google.android.gm.GoogleMailDeviceStartupReceiver" />
+            <item name="com.android.exchange.service.TasksSyncAdapterService" />
+            <item name="com.google.android.gm.ComposeActivityGmail" />
+            <item name="com.google.android.gm.CreateShortcutActivityGmail" />
+            <item name="com.android.email.service.EasAuthenticatorService" />
+            <item name="com.android.exchange.service.ContactsSyncAdapterService" />
+            <item name="com.android.exchange.service.EmailSyncAdapterService" />
+            <item name="androidx.work.impl.background.systemalarm.RescheduleReceiver" />
+            <item name="androidx.work.impl.background.systemjob.SystemJobService" />
+            <item name="com.android.exchange.service.EasService" />
+        </enabled-components>
+        <disabled-components>
+            <item name="com.google.android.gm.widget.GoogleMailWidgetProvider" />
+            <item name="com.google.android.libraries.communications.conference.ui.home.HomeActivity" />
+            <item name="com.google.android.libraries.communications.conference.ui.intents.ConferenceUrlHandlerActivity" />
+            <item name="com.google.android.libraries.communications.conference.ui.intents.ConferenceGatewayActivity" />
+            <item name="com.google.android.libraries.communications.conference.ui.settings.SettingsActivity" />
+            <item name="com.android.email.service.EmailUpgradeBroadcastReceiver" />
+            <item name="com.google.android.libraries.communications.conference.ui.callui.SingleCallActivity" />
+            <item name="com.google.android.libraries.communications.conference.ui.greenroom.GreenroomActivity" />
+            <item name="com.android.email.SecurityPolicy$PolicyAdmin" />
+            <item name="com.google.android.libraries.communications.conference.ui.callui.CallActivity" />
+            <item name="com.google.android.apps.dynamite.notifications.services.NotificationBackgroundSyncJobService" />
+            <item name="com.android.email.service.MigrateDaBroadcastReceiver" />
+            <item name="com.google.android.apps.dynamite.features.hub.navigation.RoomsActivity" />
+            <item name="com.google.android.apps.dynamite.features.hub.navigation.PeopleActivity" />
+            <item name="com.google.android.gm.CreateShortcutActivityGoogleMail" />
+            <item name="com.android.email.service.AttachmentService" />
+            <item name="com.google.android.libraries.communications.conference.ui.callui.chat.ChatActivity" />
+            <item name="com.google.android.apps.dynamite.services.notification.NotificationService" />
+        </disabled-components>
+    </pkg>
+    <pkg name="com.mediatek.op12.telecom" ceDataInode="327953" />
+    <pkg name="com.google.android.apps.tachyon" ceDataInode="327956" domainVerificationStatus="2" app-link-generation="11">
+        <enabled-components>
+            <item name="androidx.work.impl.background.systemalarm.RescheduleReceiver" />
+            <item name="androidx.work.impl.background.systemjob.SystemJobService" />
+        </enabled-components>
+    </pkg>
+    <pkg name="com.google.android.overlay.gmsconfig.common" ceDataInode="327959" />
+    <pkg name="com.mediatek.op12.settings" ceDataInode="327962" enabled="2" enabledCaller="com.mediatek.carrierexpress" />
+    <pkg name="com.tinno.android.chameleon.systemdatahandler" ceDataInode="327965" />
+    <pkg name="com.mediatek.smartratswitch.service" ceDataInode="327968" />
+    <pkg name="com.sprint.ms.cdm" ceDataInode="327971">
+        <disabled-components>
+            <item name="com.sprint.ms.smf.activities.OAuthAuthorize" />
+            <item name="com.sprint.ms.smf.activities.CallingPlusQuickStartActivity" />
+            <item name="com.sprint.ms.smf.activities.PermissionsActivity" />
+            <item name="com.sprint.ms.smf.activities.VolteHelpActivity" />
+            <item name="com.sprint.ms.smf.activities.VowifiEnablement" />
+            <item name="com.sprint.ms.smf.activities.CallingPlusHelpActivity" />
+        </disabled-components>
+    </pkg>
+    <pkg name="com.android.settings.intelligence" ceDataInode="327974" />
+    <pkg name="com.tinno.omadm" ceDataInode="327977">
+        <disabled-components>
+            <item name="com.sprint.ms.smf.activities.OAuthAuthorize" />
+            <item name="com.sprint.ms.smf.activities.CallingPlusQuickStartActivity" />
+            <item name="com.sprint.ms.smf.activities.PermissionsActivity" />
+            <item name="com.sprint.ms.smf.activities.VolteHelpActivity" />
+            <item name="com.sprint.ms.smf.activities.VowifiEnablement" />
+            <item name="com.sprint.ms.smf.activities.CallingPlusHelpActivity" />
+        </disabled-components>
+    </pkg>
+    <pkg name="com.mediatek.frameworkresoverlay" ceDataInode="327980" />
+    <pkg name="com.debug.loggerui" ceDataInode="327983" />
+    <pkg name="com.mediatek.op18.dialer" ceDataInode="327986" enabled="2" enabledCaller="com.mediatek.carrierexpress" />
+    <pkg name="com.android.internal.systemui.navbar.gestural_extra_wide_back" ceDataInode="327989" />
+    <pkg name="com.google.android.permissioncontroller" ceDataInode="327992">
+        <disabled-components>
+            <item name="com.android.permissioncontroller.role.ui.SpecialAppAccessListActivity" />
+        </disabled-components>
+    </pkg>
+    <pkg name="com.google.android.setupwizard" ceDataInode="327995" enabled="2" enabledCaller="com.android.phone">
+        <enabled-components>
+            <item name="com.google.android.setupwizard.ProgressActivity" />
+            <item name="com.google.android.setupwizard.account.GmsAccountCheckin" />
+            <item name="com.google.android.setupwizard.network.NetworkTimeoutActivity" />
+            <item name="com.google.android.setupwizard.account.KidPostSetupWrapper" />
+            <item name="com.google.android.setupwizard.account.LoadAddAccountIntent" />
+            <item name="com.google.android.setupwizard.account.AccountCheck" />
+            <item name="com.google.android.setupwizard.compat.SetupCompatService" />
+            <item name="com.google.android.setupwizard.restore.CheckRestoreToken" />
+            <item name="com.google.android.setupwizard.provision.PreEnterpriseSetupActivity" />
+            <item name="com.google.android.setupwizard.account.AccountSetupWrapper" />
+            <item name="com.google.android.setupwizard.predeferred.PreDeferredServiceScheduler" />
+            <item name="com.google.android.setupwizard.util.SecureInterceptActivity" />
+            <item name="com.google.android.setupwizard.network.NetworkActivity" />
+            <item name="com.google.android.setupwizard.PackageUpdatedBroadcastReceiver" />
+            <item name="com.google.android.setupwizard.account.CheckUserUnlock" />
+            <item name="com.google.android.setupwizard.user.BiometricLockWrapper" />
+            <item name="com.google.android.setupwizard.deferred.DeferredSetupNotificationSchedulerService" />
+            <item name="com.google.android.setupwizard.update.CompatEarlyUpdate" />
+            <item name="com.google.android.setupwizard.network.CaptivePortal" />
+            <item name="com.google.android.setupwizard.predeferred.PreDeferredSetupWizardActivity" />
+            <item name="com.google.android.setupwizard.user.DecisionPointActivity" />
+            <item name="com.google.android.setupwizard.deferred.DeferredNotificationDismissedReceiver" />
+            <item name="com.google.android.setupwizard.user.DeviceOwnerUserSetupCompleteActivity" />
+            <item name="com.google.android.setupwizard.user.WorkSetupInterruptedActivity" />
+            <item name="com.google.android.gms.common.api.GoogleApiActivity" />
+            <item name="com.google.android.setupwizard.carrier.SimSetupActivity" />
+            <item name="com.google.android.setupwizard.carrier.SimReadyActivity" />
+            <item name="com.google.android.setupwizard.deferred.DeferredCleanUpJobService" />
+            <item name="com.google.android.setupwizard.network.ConsolidateCaptivePortal" />
+            <item name="com.google.android.setupwizard.restore.IosSetupActivity" />
+            <item name="com.google.android.setupwizard.deferred.DeferredSetupWelcomeActivity" />
+            <item name="com.google.android.setupwizard.carrier.CarrierSetupWrapper" />
+            <item name="com.google.android.setupwizard.account.OpaWrapper" />
+            <item name="com.google.android.setupwizard.network.WifiActivity" />
+            <item name="com.google.android.setupwizard.carrier.EsimIntroActivity" />
+            <item name="com.google.android.setupwizard.user.LockScreenWrapper" />
+            <item name="com.google.android.setupwizard.user.DeviceOwnerWarningActivity" />
+            <item name="com.google.android.setupwizard.carrier.EsimSetupWrapper" />
+            <item name="com.google.android.setupwizard.account.FinalHold" />
+            <item name="com.google.android.setupwizard.carrier.PartnerSetupService" />
+            <item name="com.google.android.setupwizard.account.AccountExistsActivity" />
+            <item name="com.google.android.setupwizard.SetupWizardTestActivity" />
+            <item name="com.google.android.setupwizard.update.EarlyUpdate" />
+            <item name="com.google.android.setupwizard.account.CheckFrpActivity" />
+            <item name="com.google.android.setupwizard.predeferred.ConnectToWifiActivity" />
+            <item name="com.google.android.setupwizard.restore.ChooseRestoreTokenWrapper" />
+            <item name="com.google.android.setupwizard.user.SuggestedActionsActivity" />
+            <item name="com.google.android.setupwizard.SetupWizardExitActivity" />
+            <item name="com.google.android.setupwizard.time.DateTimeActivity" />
+            <item name="com.google.android.setupwizard.user.UserWarningActivity" />
+            <item name="com.google.android.setupwizard.restore.RemoveRestoreToken" />
+            <item name="com.google.android.setupwizard.initialsetup.InitialOngoingService" />
+            <item name="com.google.android.setupwizard.logging.ScreenOnClock" />
+            <item name="com.google.android.setupwizard.user.GoogleServicesWrapper" />
+            <item name="com.google.android.setupwizard.user.AssistGestureWrapper" />
+            <item name="com.google.android.setupwizard.update.OtaUpdateCheck" />
+            <item name="com.google.android.setupwizard.update.CompleteInFlightUpdates" />
+            <item name="com.google.android.setupwizard.user.WorkProfileSetupActivity" />
+            <item name="com.google.android.setupwizard.deviceorigin.provider.DeviceOriginProvider" />
+            <item name="com.google.android.setupwizard.restore.RestoreProgressActivity" />
+            <item name="com.google.android.setupwizard.update.PostCheckinAndUpdateActivity" />
+            <item name="com.google.android.setupwizard.user.DarkModeActivity" />
+            <item name="com.google.android.setupwizard.network.GmsCheckin" />
+            <item name="com.google.android.setupwizard.account.CheckFrp" />
+            <item name="com.google.android.setupwizard.partner.PartnerCustomizationProvider" />
+            <item name="com.google.android.setupwizard.network.CompatCheckinAndEarlyUpdate" />
+            <item name="com.google.android.setupwizard.deferred.DeferredSetupScheduler" />
+            <item name="com.google.android.setupwizard.account.PaymentsWrapper" />
+            <item name="com.google.android.setupwizard.restore.RestoreService" />
+            <item name="com.google.android.setupwizard.deferred.DeferredSetupWizardActivity" />
+            <item name="com.google.android.setupwizard.restore.D2dMigrationAfterAccountWrapper" />
+            <item name="com.google.android.setupwizard.user.SaveUserName" />
+            <item name="com.google.android.setupwizard.logging.ClearcutLogsUploaderService" />
+            <item name="com.google.android.setupwizard.user.LoadLauncherLayout" />
+            <item name="com.google.android.setupwizard.deferred.DeferredSuggestionSummaryProvider" />
+            <item name="com.google.android.setupwizard.user.FactoryResetActivity" />
+            <item name="com.google.android.setupwizard.carrier.SimMissingActivity" />
+            <item name="com.google.android.setupwizard.util.NetworkInterceptService" />
+            <item name="com.google.android.setupwizard.user.ExitToSupportActivity" />
+            <item name="com.google.android.setupwizard.user.ZeroTouchWrapper" />
+            <item name="com.google.android.setupwizard.restore.DemoModeWrapper" />
+            <item name="com.google.android.setupwizard.WizardManagerActivity" />
+            <item name="com.google.android.setupwizard.util.SetupWizardUserInitReceiver" />
+            <item name="com.google.android.setupwizard.SetupWizardStateProvider" />
+            <item name="com.google.android.setupwizard.restore.StartRestore" />
+            <item name="com.google.android.setupwizard.user.WelcomeActivity" />
+            <item name="com.google.android.setupwizard.restore.WorkProfileSetupWrapper" />
+            <item name="com.google.android.libraries.phenotype.registration.PhenotypeMetadataHolderService" />
+            <item name="com.google.android.setupwizard.qrprovision.QrScanActivity" />
+            <item name="com.google.android.setupwizard.provision.EnterpriseSetupWrapper" />
+            <item name="com.google.android.setupwizard.restore.ChooseWhatToRestoreWrapper" />
+            <item name="com.google.android.setupwizard.network.ProvisioningProfileCheckerFragment" />
+            <item name="com.google.android.setupwizard.account.PaiWrapper" />
+            <item name="com.google.android.setupwizard.carrier.SlotsSelectionActivity" />
+            <item name="com.google.android.setupwizard.predeferred.PreDeferredUpdateService" />
+            <item name="com.google.android.setupwizard.user.DecisionPointWrapper" />
+            <item name="com.google.android.setupwizard.network.NetworkCheck" />
+            <item name="com.google.android.setupwizard.deferred.DeferredOngoingService" />
+            <item name="com.google.android.setupwizard.account.AuthEarlyUpdateRollback" />
+            <item name="com.google.android.setupwizard.carrier.MobileDataActivity" />
+            <item name="com.google.android.setupwizard.provision.TransitionToPersonalProfileSetupActivity" />
+            <item name="com.google.android.setupwizard.restore.D2dMigrationFinalHoldWrapper" />
+            <item name="com.google.android.setupwizard.restore.D2dMigrationWrapper" />
+            <item name="com.google.android.setupwizard.update.OtaUpdateActivity" />
+            <item name="com.google.android.setupwizard.time.DateTimeCheck" />
+            <item name="com.google.android.setupwizard.restore.GetRestoreFlowActivity" />
+            <item name="com.google.android.setupwizard.predeferred.PreDeferredProgressActivity" />
+            <item name="com.google.android.setupwizard.util.WebDialogActivity" />
+        </enabled-components>
+    </pkg>
+    <pkg name="com.mediatek.op07.dialer" ceDataInode="327998" />
+    <pkg name="com.android.providers.settings" ceDataInode="328001" />
+    <pkg name="com.android.sharedstoragebackup" ceDataInode="328004" />
+    <pkg name="com.facebook.services" ceDataInode="328007" enabled="1">
+        <disabled-components>
+            <item name="com.facebook.oxygen.services.fbns.RegisteredMqttSystemBroadcastReceiver" />
+            <item name="com.facebook.oxygen.services.configuration.tosflag.FBServicesTosAcceptedFlag" />
+        </disabled-components>
+    </pkg>
+    <pkg name="com.android.printspooler" ceDataInode="328010" />
+    <pkg name="com.android.theme.icon_pack.filled.settings" ceDataInode="328013" />
+    <pkg name="com.mediatek.op20.phone" ceDataInode="328016" />
+    <pkg name="com.android.dreams.basic" ceDataInode="328019" />
+    <pkg name="com.google.android.overlay.modules.ext.services" ceDataInode="328022" />
+    <pkg name="com.mediatek.op12.phone" ceDataInode="328025" enabled="2" enabledCaller="com.mediatek.carrierexpress" />
+    <pkg name="com.coremobility.app.vnotes" ceDataInode="328028" enabled="1">
+        <disabled-components>
+            <item name="com.sprint.ms.smf.activities.OAuthAuthorize" />
+            <item name="com.sprint.ms.smf.activities.CallingPlusQuickStartActivity" />
+            <item name="com.sprint.ms.smf.activities.PermissionsActivity" />
+            <item name="com.sprint.ms.smf.activities.VolteHelpActivity" />
+            <item name="com.sprint.ms.smf.activities.VowifiEnablement" />
+            <item name="com.sprint.ms.smf.activities.CallingPlusHelpActivity" />
+        </disabled-components>
+    </pkg>
+    <pkg name="com.android.se" ceDataInode="328031" />
+    <pkg name="com.android.inputdevices" ceDataInode="328034" />
+    <pkg name="com.google.android.apps.wellbeing" ceDataInode="328037">
+        <enabled-components>
+            <item name="com.google.android.apps.wellbeing.focusmode.ui.FocusModeSettingsActivity" />
+            <item name="com.google.android.apps.wellbeing.focusmode.quicksettings.FocusModeTileService" />
+            <item name="com.google.android.apps.wellbeing.sleepinsights.ui.ExternalSleepInsightsActivity" />
+            <item name="androidx.work.impl.background.systemalarm.RescheduleReceiver" />
+            <item name="androidx.work.impl.background.systemjob.SystemJobService" />
+        </enabled-components>
+        <disabled-components>
+            <item name="com.google.android.apps.wellbeing.autodnd.ui.AutoDndGesturesSettingsActivity" />
+        </disabled-components>
+    </pkg>
+    <pkg name="com.google.android.overlay.gmsconfig.photos" ceDataInode="328040" />
+    <pkg name="com.mediatek.entitlement.o2" ceDataInode="328043" enabled="2" enabledCaller="com.mediatek.carrierexpress" />
+    <pkg name="com.android.bips" ceDataInode="328046" />
+    <pkg name="com.mediatek" ceDataInode="328049" />
+    <pkg name="com.google.android.apps.nbu.files" ceDataInode="328052">
+        <enabled-components>
+            <item name="com.google.android.apps.nbu.files.gateway.pdf.PdfPreviewIntentGatewayHandler" />
+            <item name="androidx.work.impl.background.systemalarm.RescheduleReceiver" />
+            <item name="androidx.work.impl.background.systemjob.SystemJobService" />
+        </enabled-components>
+    </pkg>
+    <pkg name="com.google.android.captiveportallogin" ceDataInode="328055" />
+    <pkg name="com.android.theme.icon_pack.circular.settings" ceDataInode="328058" />
+    <pkg name="com.google.android.overlay.gmsconfig.comms" ceDataInode="328061" />
+    <pkg name="com.android.musicfx" ceDataInode="328064" />
+    <pkg name="com.google.android.apps.docs" ceDataInode="328067" domainVerificationStatus="2" app-link-generation="3">
+        <enabled-components>
+            <item name="com.google.android.apps.docs.notification.impl.ExportedNotificationHomeActivity" />
+        </enabled-components>
+        <disabled-components>
+            <item name="com.google.android.apps.docs.drive.slices.DriveSliceProvider" />
+            <item name="com.google.android.apps.docs.drive.clipboard.SendTextToClipboardActivity" />
+            <item name="com.google.android.apps.docs.drive.NotificationsCenterAliasActivity" />
+        </disabled-components>
+    </pkg>
+    <pkg name="com.google.android.apps.maps" ceDataInode="328070" enabled="1" domainVerificationStatus="2" app-link-generation="4">
+        <enabled-components>
+            <item name="androidx.work.impl.background.systemalarm.RescheduleReceiver" />
+            <item name="androidx.work.impl.background.systemjob.SystemJobService" />
+        </enabled-components>
+    </pkg>
+    <pkg name="com.google.android.modulemetadata" ceDataInode="328073" />
+    <pkg name="com.tinno.android.chameleon.datadispatcher" ceDataInode="328076" />
+    <pkg name="com.mediatek.op08.settings" ceDataInode="328079" />
+    <pkg name="com.android.cellbroadcastreceiver" ceDataInode="328082" />
+    <pkg name="com.google.android.webview" ceDataInode="328085" />
+    <pkg name="com.android.theme.icon.teardrop" ceDataInode="328089" />
+    <pkg name="com.google.android.overlay.modules.documentsui" ceDataInode="328092" />
+    <pkg name="com.amazon.appmanager" ceDataInode="328095" enabled="1" />
+    <pkg name="com.google.android.networkstack" ceDataInode="328098" />
+    <pkg name="com.android.server.telecom" ceDataInode="328101" />
+    <pkg name="com.google.android.syncadapters.contacts" ceDataInode="328104">
+        <disabled-components>
+            <item name="com.google.android.syncadapters.contacts.ProxyGalProvider" />
+            <item name="com.google.android.syncadapters.contacts.ContactsSyncAdapterService" />
+        </disabled-components>
+    </pkg>
+    <pkg name="com.android.theme.icon_pack.rounded.themepicker" ceDataInode="328107" />
+    <pkg name="com.android.keychain" ceDataInode="328110" />
+    <pkg name="com.tinno.chmlncust" ceDataInode="328113" />
+    <pkg name="com.tinno.android.chameleon.chameleonprovider" ceDataInode="328116" />
+    <pkg name="com.google.android.calculator" ceDataInode="328119" />
+    <pkg name="com.android.chrome" ceDataInode="328122" />
+    <pkg name="com.android.dialer" ceDataInode="328126" />
+    <pkg name="com.tinno.setupwizard.overlay" ceDataInode="328129" />
+    <pkg name="com.android.theme.icon_pack.filled.systemui" ceDataInode="328132" />
+    <pkg name="com.google.android.packageinstaller" ceDataInode="328135" />
+    <pkg name="com.mediatek.op07.settings" ceDataInode="328138" enabled="2" enabledCaller="com.mediatek.carrierexpress" />
+    <pkg name="com.google.android.gms" ceDataInode="328141">
+        <enabled-components>
+            <item name="com.google.android.gms.family.v2.create.FamilyCreationActivity" />
+            <item name="com.google.android.gms.nearby.sharing.ReceiveSurfaceService" />
+            <item name="com.google.android.gms.pay.deeplink.AliasSaveValuablesDeepLinkActivity" />
+            <item name="com.google.android.gms.auth.account.mdm.GcmReceiverService" />
+            <item name="com.google.android.gms.matchstick.net.MessagingService" />
+            <item name="com.google.android.gms.thunderbird.config.EmergencyConfigContentProvider" />
+            <item name="com.google.android.gms.autofill.ui.AutofillActivity" />
+            <item name="com.google.android.gms.googlehelp.webview.GoogleHelpRenderingApiWebViewActivity" />
+            <item name="com.google.android.gms.accountsettings.ui.SettingsLoaderActivity" />
+            <item name="com.google.android.gms.app.search.GmsSearchIndexablesProvider" />
+            <item name="com.google.android.gms.mdm.settings.AdmSettingsActivity" />
+            <item name="com.google.android.gms.fido.fido2.ui.PolluxActivity" />
+            <item name="com.google.android.gms.vision.DependencyBroadcastReceiverProxy" />
+            <item name="com.google.android.gms.auth.managed.ui.PhoneskyDpcInstallActivity" />
+            <item name="com.google.android.gms.nearby.sharing.DirectShareService" />
+            <item name="com.google.android.gms.magictether.host.TetherListenerService" />
+            <item name="com.google.android.gms.udc.service.UdcContextInitService" />
+            <item name="com.google.android.gms.matchstick.GcmBroadcastReceiver" />
+            <item name="com.google.android.gms.auth.account.visibility.RequestAccountsAccessActivity" />
+            <item name="com.google.android.gms.auth.proximity.GcmBroadcastReceiver" />
+            <item name="com.google.android.gms.trustagent.discovery.WebpageOnbodyPromotionActivity" />
+            <item name="com.google.android.gms.auth.authzen.magicwand.MagicWandBarcodeScannerActivity" />
+            <item name="com.google.android.gms.mdm.services.GcmReceiverService" />
+            <item name="com.google.android.gms.mobiledataplan.gcm.GcmBroadcastReceiver" />
+            <item name="com.google.android.gms.subscribedfeeds.GcmReceiverService" />
+            <item name="com.google.android.gms.cast.service.CastPersistentService" />
+            <item name="com.google.android.gms.family.v2.invites.SendInvitationsActivity" />
+            <item name="com.google.android.gms.auth.authzen.transaction.secondscreen.SecondScreenGetTokenActivity" />
+            <item name="com.google.android.gms.matchstick.ui.MessageActivity" />
+            <item name="com.google.android.gms.trustagent.PreferenceService" />
+            <item name="com.google.android.gms.languageprofile.GcmTaskService" />
+            <item name="com.google.android.location.util.LocationAccuracyInjectorService" />
+            <item name="com.google.android.gms.mdm.receivers.RetryAfterAlarmReceiver" />
+            <item name="com.google.android.gms.nearby.sharing.SharingSliceProvider" />
+            <item name="com.google.android.gms.auth.authzen.cryptauth.DialerSecretCodeReceiver" />
+            <item name="com.google.android.gms.security.provider.SecurityProvider" />
+            <item name="com.google.android.gms.autofill.ui.AutofillDialogActivity" />
+            <item name="com.google.android.gms.app.net.NetworkUsageActivityAdvanced" />
+            <item name="com.google.android.gms.udc.ui.UdcSettingsListActivity" />
+            <item name="com.google.android.gms.pay.notifications.GcmBroadcastReceiver" />
+            <item name="com.google.android.gms.measurement.PackageMeasurementReceiver" />
+            <item name="com.google.android.gms.backup.component.D2dSourceService" />
+            <item name="com.google.android.gms.nearby.sharing.ShareSheetActivityAlias" />
+            <item name="com.google.android.gms.constellation.ui.ConstellationOnDemandConsentActivity" />
+            <item name="com.google.android.gms.auth.uiflows.addaccount.UncertifiedNotificationActivity" />
+            <item name="com.google.android.gms.autofill.ui.AutofillTransparentActivity" />
+            <item name="com.google.android.gms.nearby.exposurenotification.settings.SettingsCheckerActivity" />
+            <item name="com.google.android.gms.clearcut.debug.ClearcutDebugDumpService" />
+            <item name="com.google.android.gms.auth.api.phone.ui.BrowserConsentActivity" />
+            <item name="com.google.android.gms.kids.settings.KidsSettingsActivity" />
+            <item name="com.google.android.gms.pay.security.storagekey.service.StorageKeyCacheService" />
+            <item name="com.google.android.gms.family.v2.tos.TosActivity" />
+            <item name="com.google.android.gms.nearby.sharing.SettingsActivity" />
+            <item name="com.google.android.gms.security.settings.VerifyAppsSettingsActivity" />
+            <item name="com.google.android.gms.auth.proximity.phonehub.PhoneHubNotificationListenerService" />
+            <item name="com.google.android.gms.auth.authzen.AuthzenDeeplinkHandlerActivity" />
+            <item name="com.google.android.gms.backup.component.NoBackupNotificationService" />
+            <item name="com.google.android.gms.mdm.services.LockscreenMessageService" />
+            <item name="com.google.android.gms.analytics.service.AnalyticsService" />
+            <item name="com.google.android.gms.backup.mms.MmsBackupService" />
+            <item name="com.google.android.gms.trustagent.discovery.PromoteScreenLockAndOnbodyActivity" />
+            <item name="com.google.android.gms.family.webview.FamilyWebViewActivity" />
+            <item name="com.google.android.gms.auth.folsom.service.FolsomPublicKeyUpdateService" />
+            <item name="com.google.android.gms.app.settings.DataManagementActivity" />
+            <item name="com.google.android.gms.enpromo.ui.PromoActivity" />
+            <item name="com.google.android.gms.constellation.GcmBroadcastReceiver" />
+            <item name="com.google.android.gms.octarine.ui.OctarineWebviewActivity" />
+            <item name="com.google.android.gms.pay.deeplink.DeepLinkActivity" />
+            <item name="com.google.android.gms.accountsettings.content.SettingsSearchContentProvider" />
+            <item name="com.google.android.gms.backup.component.D2dSourceActivity" />
+            <item name="com.google.android.gms.location.settings.LocationAccuracyActivity" />
+            <item name="com.google.android.gms.magictether.logging.DailyMetricsLoggerService" />
+            <item name="com.google.android.gms.nearby.messages.offline.OfflineCachingService" />
+            <item name="com.google.android.gms.fido.fido2.pollux.CableAuthenticatorService" />
+            <item name="com.google.android.gms.constellation.ui.ConstellationDebugActivity" />
+            <item name="com.google.android.gms.update.OtaSuggestionSummaryProvider" />
+            <item name="com.google.android.gms.smartdevice.d2d.ui.SourceDirectTransferActivity" />
+            <item name="com.google.android.gms.pay.deeplink.AliasViewValuablesDetailsDeepLinkActivity" />
+            <item name="com.google.android.gms.people.sync.focus.ContactsSyncAdapterService" />
+            <item name="com.google.firebase.auth.api.gms.ui.BrowserSignInStarterActivity" />
+            <item name="com.google.android.gms.magictether.host.ProvisioningFailedDialogActivity" />
+            <item name="com.google.android.gms.enpromo.PromoInternalService" />
+            <item name="com.google.android.gms.pay.notifications.PayNotificationService" />
+            <item name="com.google.android.location.fused.FusedLocationService" />
+            <item name="com.google.android.gms.backup.component.BackupSettingsActivity" />
+            <item name="com.google.android.gms.people.sync.coreui.ContactsSyncCoreActivity" />
+            <item name="com.google.android.gms.auth.api.phone.ui.AutofillConsentActivity" />
+            <item name="com.google.android.gms.security.recaptcha.RecaptchaActivity" />
+            <item name="com.google.android.gms.fonts.update.UpdateSchedulerService" />
+            <item name="com.google.android.gms.thunderbird.settings.ThunderbirdSettingsActivity" />
+            <item name="com.google.android.gms.udc.ui.AuthenticatingWebViewActivity" />
+            <item name="com.google.android.gms.autofill.service.AutofillService" />
+            <item name="com.google.android.gms.gcm.nts.SchedulerService" />
+            <item name="com.google.android.gms.matchstick.data.DatabaseProvider" />
+            <item name="com.google.firebase.auth.api.gms.service.FirebaseAuthService" />
+            <item name="com.google.android.gms.autofill.ui.AutofillSettingsActivity" />
+            <item name="com.google.android.gms.smartdevice.d2d.ui.ForwardingActivity" />
+            <item name="com.google.android.gms.smartdevice.setup.ui.AccountChallengeActivity" />
+            <item name="com.google.android.gms.auth.proximity.multidevice.SettingsContentProvider" />
+            <item name="com.google.android.gms.fonts.provider.FontsProvider" />
+            <item name="com.google.android.gms.auth.account.accounttransfer.AccountTransferReceiver" />
+            <item name="com.google.android.gms.mdm.LockscreenActivityPermissionTrampoline" />
+            <item name="com.google.android.gms.constellation.ui.ApiConsentActivity" />
+            <item name="com.google.android.location.reporting.service.UploadGcmTaskService" />
+            <item name="com.google.android.gms.languageprofile.GcmReceiverService" />
+            <item name="com.google.android.gms.magictether.wifisync.WifiSyncService" />
+            <item name="com.google.android.gms.smartdevice.magicwand.MagicWandActivity" />
+            <item name="com.google.android.gms.udc.gcm.GcmBroadcastReceiver" />
+            <item name="com.google.firebase.auth.api.gms.ui.BrowserSignInResponseHandlerActivity" />
+            <item name="com.google.android.gms.fido.u2f.U2fService" />
+            <item name="com.google.android.gms.auth.folsom.service.GcmReceiverService" />
+            <item name="com.google.android.gms.matchstick.settings.MatchstickSettingsActivity" />
+            <item name="com.google.android.gms.matchstick.ui.EntryActivity" />
+            <item name="com.google.android.gms.droidguard.DroidGuardGcmTaskService" />
+            <item name="com.google.android.gms.nearby.sharing.ReceiveSurfaceActivity" />
+            <item name="com.google.android.gms.matchstick.contacts.reachability.ReachabilityService" />
+            <item name="com.google.android.gms.thunderbird.EmergencyPersistentService" />
+            <item name="com.google.android.location.internal.LocationContentProvider" />
+            <item name="com.google.android.gms.kids.settings.KidsSettingsActivityAliasSuw" />
+            <item name="com.google.android.gms.nearby.mediums.nearfieldcommunication.NfcAdvertisingService" />
+            <item name="com.google.android.gms.mdm.LockscreenActivity" />
+            <item name="com.google.android.gms.nearby.exposurenotification.service.ExposureMatchingService" />
+            <item name="com.google.android.gms.nearby.discovery.devices.DevicesListActivity" />
+            <item name="com.google.android.gms.family.v2.manage.FamilyManagementActivity" />
+            <item name="com.google.android.gms.googlehelp.GcmBroadcastReceiver" />
+            <item name="com.google.android.gms.backup.component.SetBackupAccountFlowActivity" />
+            <item name="com.google.android.gms.accountsettings.service.PurgeScreenDataService" />
+            <item name="com.google.android.gms.mdm.receivers.MdmDeviceAdminReceiver" />
+            <item name="com.google.android.gms.fido.client.ui.FidoClientActivity" />
+            <item name="com.google.android.gms.growth.notifications.GcmBroadcastReceiver" />
+            <item name="com.google.android.gms.adsidentity.settings.AdsIdentityPersonalizationActivity" />
+            <item name="com.google.android.gms.subscribedfeeds.GmsFeedsSyncService" />
+            <item name="com.google.android.gms.walletp2p.feature.transfer.TransferMoneyActivity" />
+            <item name="com.google.android.gms.lockbox.LockboxAlarmReceiver" />
+            <item name="com.google.android.gms.backup.mms.MmsRestoreService" />
+            <item name="com.google.android.gms.nearby.sharing.ShareSheetActivity" />
+            <item name="com.google.android.gms.measurement.PackageMeasurementTaskService" />
+            <item name="com.google.android.gms.location.persistent.LocationPersistentService" />
+            <item name="com.google.android.gms.nearby.discovery.service.DiscoveryService" />
+            <item name="com.google.android.gms.recaptcha.RecaptchaActivity" />
+            <item name="com.google.android.gms.matchstick.task.ScheduledTaskService" />
+            <item name="com.google.android.gms.auth.uiflows.addaccount.DmSetScreenlockActivity" />
+            <item name="com.google.android.gms.nearby.sharing.SettingsActivityAlias" />
+            <item name="com.google.android.gms.trustagent.ConfirmUserCredentialAndStartActivity" />
+            <item name="com.google.android.gms.analytics.AnalyticsTaskService" />
+            <item name="com.google.android.gms.adsidentity.settings.AdsIdentitySettingsActivity" />
+            <item name="com.google.android.gms.matchstick.call.CallEntryActivity" />
+            <item name="com.google.android.gms.people.service.galprovider.PeopleGalProvider" />
+            <item name="com.google.android.location.settings.ActivityRecognitionPermissionActivity" />
+            <item name="com.google.android.gms.auth.managed.ui.EmmActivity" />
+            <item name="com.google.android.gms.drive.deprecation.UpgradeDialogActivity" />
+            <item name="com.google.android.gms.fido.authenticator.ui.AuthenticatorActivity" />
+            <item name="com.google.android.gms.mdm.services.MdmPhoneWearableListenerService" />
+            <item name="com.google.android.gms.nearby.sharing.SetupActivity" />
+            <item name="com.google.android.gms.mdm.services.DeviceManagerApiService" />
+            <item name="com.google.android.gms.backup.component.GmsBackupSchedulerService" />
+            <item name="com.google.android.gms.backup.component.FullBackupJobLoggerService" />
+            <item name="com.google.android.gms.accountsettings.ui.SearchEntryPointActivity" />
+            <item name="com.google.android.gms.mdm.services.RingService" />
+            <item name="com.google.android.gms.romanesco.settings.ContactsRestoreDialogActivity" />
+            <item name="com.google.android.gms.family.v2.manage.InvitationManagementActivity" />
+            <item name="com.google.android.gms.auth.proximity.phonehub.NotificationOptInActivity" />
+            <item name="com.google.android.gms.nearby.sharing.SharingTileService" />
+            <item name="com.google.android.gms.accountsettings.ui.PrivacyHubActivityControlsActivity" />
+            <item name="com.google.android.gms.constellation.checker.RefreshGcmTaskService" />
+            <item name="com.google.android.gms.setupservices.GoogleServicesActivity" />
+            <item name="com.google.android.gms.credential.manager.PasswordManagerActivity" />
+            <item name="com.google.android.gms.thunderbird.settings.ThunderbirdSettingInjectorService" />
+            <item name="com.google.android.gms.auth.setup.devicesignals.LockScreenReceiver" />
+            <item name="com.google.android.gms.romanesco.settings.ContactsRestoreContactsActivity" />
+            <item name="com.google.android.gms.audit.upload.AuditGcmTaskService" />
+            <item name="com.google.android.gms.magictether.host.FirstTimeSetupDialogActivity" />
+            <item name="com.google.android.gms.nearby.sharing.SharingSyncService" />
+            <item name="com.google.android.gms.accountsettings.mg.ui.main.MainActivity" />
+            <item name="com.google.android.gms.ocr.CardCaptureActivity" />
+            <item name="com.google.android.gms.nearby.discovery.fastpair.slice.FastPairSliceProvider" />
+            <item name="com.google.android.gms.backup.component.MmsBackupSchedulerService" />
+            <item name="com.google.android.gms.accountsettings.ui.ZeroPartyEntryPointActivity" />
+            <item name="com.google.android.gms.chromesync.sync.GcmBroadcastReceiver" />
+            <item name="com.google.android.location.settings.DrivingConditionProvider" />
+            <item name="com.google.android.gms.smartdevice.d2d.ui.TargetDirectTransferActivity" />
+            <item name="com.google.android.gms.trustlet.place.ui.TrustedPlacesSettingsActivity" />
+            <item name="com.google.android.gms.lockbox.service.LockboxBrokerService" />
+            <item name="com.google.android.gms.gass.GassService" />
+            <item name="com.google.android.gms.thunderbird.EmergencyLocationService" />
+            <item name="com.google.android.gms.fido.u2f.ui.AuthenticateActivity" />
+            <item name="com.google.android.gms.ocr.SecuredCreditCardOcrActivity" />
+            <item name="com.google.android.gms.auth.account.data.WorkAccountStoreReceiver" />
+            <item name="com.google.android.gms.walletp2p.feature.completion.CompleteMoneyTransferActivity" />
+            <item name="com.google.android.gms.mobiledataplan.ui.MobileDataPlanSettingsActivity" />
+            <item name="com.google.android.gms.auth.uiflows.addaccount.FinishSessionActivity" />
+            <item name="com.google.android.gms.nearby.discovery.devices.FindDeviceActivity" />
+            <item name="com.google.android.gms.pay.main.PayActivity" />
+            <item name="com.google.android.gms.nearby.discovery.fastpair.HalfSheetActivity" />
+            <item name="com.google.android.location.settings.NlpConsentFooterReceiver" />
+            <item name="com.google.android.gms.fido.fido2.ui.Fido2FullScreenActivity" />
+            <item name="com.google.android.gms.romanesco.settings.ContactsRestoreSettingsActivity" />
+            <item name="com.google.android.gms.mobiledataplan.ui.MobileDataPlanDetailActivity" />
+            <item name="com.google.android.gms.udc.ui.UdcConsentActivity" />
+            <item name="com.google.android.gms.growth.notifications.NotificationActionActivity" />
+            <item name="com.google.android.gms.constellation.ui.ConstellationWebSettingsActivity" />
+            <item name="com.google.android.gms.matchstick.settings.RegistrationActivity" />
+            <item name="com.google.android.gms.auth.api.accounttransfer.PurgeAccountTransferDataService" />
+            <item name="com.google.android.gms.signin.activity.ConsentActivity" />
+            <item name="com.google.android.gms.auth.proximity.phonehub.PhoneHubService" />
+            <item name="com.google.android.gms.wallet.service.WalletGcmTaskService" />
+            <item name="com.google.android.gms.nearby.exposurenotification.settings.SettingsActivity" />
+            <item name="com.google.android.location.internal.NanoAppUpdaterGcmTaskService" />
+            <item name="com.google.android.gms.googlehelp.gcm.InvalidateGcmTokenGcmTaskService" />
+            <item name="com.google.android.gms.subscribedfeeds.GmsSubscribedFeedsProvider" />
+            <item name="com.google.android.gms.auth.api.phone.ui.AutofillSettingsActivity" />
+            <item name="com.google.android.gms.lockbox.LockboxService" />
+            <item name="com.google.android.gms.pay.gcmtask.PayGcmTaskService" />
+            <item name="com.google.android.gms.backup.component.D2dMigrateHelperService" />
+            <item name="com.google.android.gms.backup.component.D2dTransportService" />
+            <item name="com.google.android.gms.growth.ui.GrowthDebugActivity" />
+            <item name="com.google.android.gms.locationsharing.service.LocationSharingSettingInjectorService" />
+            <item name="com.google.android.gms.auth.managed.ui.SetupWorkProfileActivity" />
+            <item name="com.google.android.gms.nearby.discovery.fastpair.slice.FastPairContextualCardProvider" />
+            <item name="com.google.android.gms.family.v2.manage.DeleteMemberActivity" />
+            <item name="com.google.android.gms.ocr.GiftCardOcrActivity" />
+            <item name="com.google.android.location.reporting.service.LocationHistoryInjectorService" />
+            <item name="com.google.android.gms.auth.uiflows.consent.BrowserConsentActivity" />
+            <item name="com.google.android.gms.thunderbird.settings.ThunderbirdSettingsContentProvider" />
+            <item name="com.google.android.gms.app.settings.SettingsSubPageActivity" />
+            <item name="com.google.android.gms.easysignin.EasySignInActivity" />
+            <item name="com.google.android.gms.auth.uiflows.removeaccount.GetAccountRemovalAllowedActivity" />
+            <item name="com.google.android.gms.auth.uiflows.factoryreset.PreFactoryResetActivity" />
+            <item name="com.google.android.gms.app.net.NetworkUsageActivity" />
+            <item name="com.google.android.gms.matchstick.data.LighterContentProvider" />
+            <item name="com.google.android.gms.constellation.ui.ConstellationSettingsActivity" />
+            <item name="com.google.android.gms.nearby.discovery.fastpair.CompanionAppInstallActivity" />
+            <item name="com.google.android.gms.subscribedfeeds.SyncService" />
+            <item name="com.google.android.gms.ipa.base.IpaGcmTaskService" />
+            <item name="com.google.android.gms.mobiledataplan.service.PeriodicUpdaterService" />
+            <item name="com.google.android.gms.growth.ui.webview.GrowthWebViewActivity" />
+            <item name="com.google.android.location.settings.DrivingActivity" />
+            <item name="com.google.android.gms.googlehelp.helpactivities.OpenHelpRtcActivity" />
+            <item name="com.google.android.gms.phenotype.service.FlagOverrideReceiver" />
+            <item name="com.google.android.location.settings.ActivityRecognitionModeActivity" />
+            <item name="com.google.android.gms.googlehelp.contact.chat.ChatSupportRequestFormActivity" />
+            <item name="com.google.android.gms.auth.proximity.multidevice.SettingsActivity" />
+            <item name="com.google.android.gms.nearby.exposurenotification.service.ExposureNotificationInternalService" />
+        </enabled-components>
+        <disabled-components>
+            <item name="com.google.android.gms.netrec.scoring.receiver.ScoreNetworksBroadcastReceiver" />
+            <item name="com.google.android.location.drivingmode.DrivingModeSettingsActivity" />
+            <item name="com.google.android.gms.backup.component.BackupOptInActivity" />
+            <item name="com.google.android.gms.tapandpay.hce.service.TpHceService" />
+            <item name="com.google.android.gms.auth.managed.ui.SetNewPasswordActivity" />
+            <item name="com.google.android.gms.auth.uiflows.addaccount.DmDownloadInstallActivity" />
+            <item name="com.google.android.gms.tapandpay.globalactions.QuickAccessWalletService" />
+            <item name="com.google.android.gms.matchstick.ui.LighterMessageIntentActivity" />
+            <item name="com.google.android.gms.pay.deeplink.AliasAddSignUpValuablesDeepLinkActivity" />
+            <item name="com.google.android.gms.auth.account.authenticator.WorkAccountAuthenticatorService" />
+            <item name="com.google.android.gms.trustagent.GoogleTrustAgentTrustStatusMonitorSetting" />
+            <item name="com.google.android.location.settings.EAlertSettingsActivity" />
+            <item name="com.google.android.gms.mdm.receivers.OneTimeInitializerReceiver" />
+            <item name="com.google.android.gms.auth.managed.ui.SettingsSecurityDeviceOwnerActivity" />
+            <item name="com.google.android.location.ealert.ux.EAlertSafetyInfoActivity" />
+            <item name="com.google.android.location.settings.EAlertGoogleSettingDebugActivity" />
+            <item name="com.google.android.gms.auth.uiflows.addaccount.GoogleServicesActivity" />
+            <item name="com.google.android.location.drivingmode.DrivingModeSettingsNoSummaryActivity" />
+            <item name="com.google.android.location.drivingmode.AutoLaunchService" />
+            <item name="com.google.android.gms.auth.managed.admin.DeviceAdminReceiver" />
+            <item name="com.google.android.location.service.EAlertSettingInjectorService" />
+            <item name="com.google.android.gms.trustagent.discovery.OnbodyPromotionActivity" />
+            <item name="com.google.android.location.drivingmode.DrivingModeFrxActivity" />
+        </disabled-components>
+    </pkg>
+    <pkg name="com.google.android.gsf" ceDataInode="328144">
+        <disabled-components>
+            <item name="com.google.android.gsf.loginservice.MigrateToAccountManagerBroadcastReceiver" />
+            <item name="com.google.android.gsf.subscribedfeeds.SubscribedFeedsSyncAdapterService" />
+        </disabled-components>
+    </pkg>
+    <pkg name="com.google.android.ims" ceDataInode="328147">
+        <enabled-components>
+            <item name="androidx.work.impl.background.systemalarm.RescheduleReceiver" />
+            <item name="androidx.work.impl.background.systemjob.SystemJobService" />
+        </enabled-components>
+    </pkg>
+    <pkg name="com.google.android.tag" ceDataInode="328150" />
+    <pkg name="com.google.android.tts" ceDataInode="328153" />
+    <pkg name="com.sprint.ce.updater" ceDataInode="328156">
+        <disabled-components>
+            <item name="com.sprint.ms.smf.activities.OAuthAuthorize" />
+            <item name="com.sprint.ms.smf.activities.CallingPlusQuickStartActivity" />
+            <item name="com.sprint.ms.smf.activities.PermissionsActivity" />
+            <item name="com.sprint.ms.smf.activities.VolteHelpActivity" />
+            <item name="com.sprint.ms.smf.activities.VowifiEnablement" />
+            <item name="com.sprint.ms.smf.activities.CallingPlusHelpActivity" />
+        </disabled-components>
+    </pkg>
+    <pkg name="com.android.wifi.resources" ceDataInode="328159" />
+    <pkg name="com.android.calllogbackup" ceDataInode="328162" />
+    <pkg name="com.google.android.partnersetup" ceDataInode="328165">
+        <disabled-components>
+            <item name="com.google.android.partnersetup.PhoneStateReceiver" />
+        </disabled-components>
+    </pkg>
+    <pkg name="com.android.localtransport" ceDataInode="328168" />
+    <pkg name="com.google.android.videos" ceDataInode="328171" enabled="1" domainVerificationStatus="2" app-link-generation="5">
+        <enabled-components>
+            <item name="com.google.android.videos.ManageNetworkUsageActivity" />
+            <item name="androidx.work.impl.background.systemalarm.RescheduleReceiver" />
+            <item name="androidx.work.impl.background.systemjob.SystemJobService" />
+        </enabled-components>
+        <disabled-components>
+            <item name="com.google.android.apps.play.movies.common.service.contentnotification.base.NotificationChannelManager$SystemUpgradedInitialize" />
+            <item name="com.google.android.apps.play.movies.common.service.pinning.TransferService$Receiver" />
+        </disabled-components>
+    </pkg>
+    <pkg name="com.tinno.android.chameleon.phonedatahandler" ceDataInode="328174" />
+    <pkg name="com.google.android.overlay.gmsconfig.gsa" ceDataInode="328177" />
+    <pkg name="com.android.carrierdefaultapp" ceDataInode="328180" domainVerificationStatus="2" app-link-generation="6" />
+    <pkg name="com.android.theme.font.notoserifsource" ceDataInode="328183" />
+    <pkg name="com.android.theme.icon_pack.filled.android" ceDataInode="328186" />
+    <pkg name="com.android.proxyhandler" ceDataInode="328189" />
+    <pkg name="com.android.internal.display.cutout.emulation.waterfall" ceDataInode="328192" />
+    <pkg name="com.android.theme.icon_pack.circular.systemui" ceDataInode="328195" />
+    <pkg name="com.android.partnerbrowsercustomizations" ceDataInode="328198" />
+    <pkg name="com.google.android.overlay.modules.permissioncontroller.forframework" ceDataInode="328201" />
+    <pkg name="com.google.android.feedback" ceDataInode="328204" />
+    <pkg name="com.google.android.printservice.recommendation" ceDataInode="335926" />
+    <pkg name="com.google.android.apps.photos" ceDataInode="335929" domainVerificationStatus="2" app-link-generation="7">
+        <enabled-components>
+            <item name="androidx.work.impl.background.systemalarm.RescheduleReceiver" />
+            <item name="androidx.work.impl.background.systemjob.SystemJobService" />
+        </enabled-components>
+    </pkg>
+    <pkg name="com.google.android.calendar" ceDataInode="335932" domainVerificationStatus="2" app-link-generation="8">
+        <enabled-components>
+            <item name="com.google.calendar.v2a.shared.sync.impl.android.PlatformSyncShell$SyncAdapterService" />
+            <item name="com.google.calendar.v2a.shared.sync.impl.android.accounts.AccountsBroadcastReceiver" />
+        </enabled-components>
+        <disabled-components>
+            <item name="com.google.android.calendar.SyncUpgradeReceiver" />
+            <item name="com.google.android.calendar.AllPrefsUpgradeReceiver" />
+        </disabled-components>
+    </pkg>
+    <pkg name="com.android.managedprovisioning" ceDataInode="335935" />
+    <pkg name="com.mediatek.op07.wfo" ceDataInode="335938" />
+    <pkg name="com.google.android.trichromelibrary_428014133" ceDataInode="335941" />
+    <pkg name="com.mediatek.op08.ims" ceDataInode="335945" />
+    <pkg name="com.mediatek.op08.wfo" ceDataInode="335948" />
+    <pkg name="com.mediatek.op18.contacts" ceDataInode="335951" enabled="2" enabledCaller="com.mediatek.carrierexpress" />
+    <pkg name="com.mediatek.atci.service" ceDataInode="335954" />
+    <pkg name="com.android.soundpicker" ceDataInode="335957" />
+    <pkg name="com.mediatek.op12.ims" ceDataInode="335960" />
+    <pkg name="com.mediatek.op18.mms" ceDataInode="335963" enabled="2" enabledCaller="com.mediatek.carrierexpress" />
+    <pkg name="com.mediatek.capctrl.service" ceDataInode="335966" />
+    <pkg name="com.google.android.documentsui" ceDataInode="335969">
+        <disabled-components>
+            <item name="com.android.documentsui.LauncherActivity" />
+        </disabled-components>
+    </pkg>
+    <pkg name="com.mediatek.op08.systemui" ceDataInode="335972" />
+    <pkg name="com.google.mainline.telemetry" ceDataInode="335975" />
+    <pkg name="com.facebook.katana" ceDataInode="335978">
+        <enabled-components>
+            <item name="com.facebook.thankful.ThankAFriendActivity" />
+            <item name="com.facebook.composer.minutiae.activity.MinutiaeTabbedPickerActivity" />
+            <item name="com.facebook.timeline.newpicker.collage.mediasetselection.MediasetSelectionActivity" />
+            <item name="com.facebook.quickpromotion.debug.QuickPromotionSettingsActivity" />
+            <item name="com.facebook.privacy.selector.AudiencePickerActivity" />
+            <item name="com.facebook.inspiration.shortcut.shareintent.InpirationCameraShareDefaultAlias" />
+            <item name="com.facebook.zero.settings.FlexSettingsActivity" />
+            <item name="com.facebook.payments.auth.dynamicdescriptor.DynamicDescriptorMainActivity" />
+            <item name="com.facebook.events.invite.EventsInviteFriendsSelectorActivity" />
+            <item name="com.facebook.growth.friendfinder.FriendFinderStartActivity" />
+            <item name="com.facebook.places.checkin.activity.SelectAtTagActivity" />
+            <item name="com.facebook.appinvites.activity.AppInvitesActivity" />
+            <item name="com.facebook.compost.ui.CompostActivity" />
+            <item name="com.facebook.pages.app.composer.activity.videocreation.base.BizComposerVideoCreationActivity" />
+            <item name="com.facebook.fbservice.service.BlueServiceJobIntentService" />
+            <item name="com.facebook.leadgen.deeplink.LeadGenActivity" />
+            <item name="com.facebook.customsettings.CustomSettingsActivity" />
+            <item name="com.facebook.payments.transactionhub.HubLandingActivity" />
+            <item name="com.facebook.payments.selector.PaymentsSelectorScreenActivity" />
+            <item name="com.facebook.instantarticles.paywall.SubscriptionAccountLinkingCallbackUriHandlerActivity" />
+            <item name="com.facebook.profilecommerce.deeplink.CommercePostComposerActivity" />
+            <item name="com.facebook.push.init.PushInitializer$LocalBroadcastReceiver" />
+            <item name="com.facebook.fbpay.w3c.views.DemaskCardActivity" />
+            <item name="com.facebook.local.recommendations.recommendationsview.RecommendationsViewActivity" />
+            <item name="com.facebook.onsitesignals.autofill.AutofillFullScreenActivity" />
+            <item name="com.facebook.push.registration.PushNegativeFeedbackLollipopService" />
+            <item name="com.facebook.video.hashtag.activity.HashtagDiscoveryActivity" />
+            <item name="com.facebook.wem.shield.ShieldLandingActivity" />
+            <item name="com.facebook.events.ui.date.EventsCalendarDatePickerActivity" />
+            <item name="com.facebook.privacy.educator.AudienceEducatorActivity" />
+            <item name="com.facebook.inspiration.activity.InspirationCameraActivity" />
+            <item name="com.facebook.fbreact.autoupdater.fbprefs.DownloadOnDemandInternalSettingsActivity" />
+            <item name="com.facebook.workshared.integrations.oauth.feeds.activity.WorkFileUploadOAuthActivity" />
+            <item name="com.facebook.quicksilver.webviewservice.QuicksilverArcadeActivity" />
+            <item name="com.facebook.directinstall.appdetails.AppDetailsActivity" />
+            <item name="com.facebook.composer.ui.underwood.modal.ModalUnderwoodActivity" />
+            <item name="com.facebook.push.negativefeedback.PushNegativeFeedbackReceiver" />
+            <item name="com.facebook.push.fcm.GetFcmTokenRegistrarGCMService" />
+            <item name="com.facebook.push.fcm.GetFcmTokenRegistrarLollipopService" />
+            <item name="com.facebook.work.groups.achievements.composer.WorkAchievementPostComposerActivity" />
+            <item name="com.facebook.nativetemplates.fb.ntnativehybrid.NativeTemplatesNativeHybridPlaygroundActivity" />
+            <item name="com.facebook.update.uri.legacy.GooglePlayRedirectActivity" />
+            <item name="com.facebook.quickpromotion.ui.QuickPromotionInterstitialActivity" />
+            <item name="com.facebook.ixttriggers.playground.IXTContentTriggerTestUserActivity" />
+            <item name="com.facebook.react.devsupport.DevSettingsActivity" />
+            <item name="com.facebook.messaginginblue.inbox.activities.setting.SettingsActivity" />
+            <item name="com.facebook.timeline.funfacts.FunFactSinglePromptActivity" />
+            <item name="com.facebook.katana.activity.ImmersiveActivity" />
+            <item name="com.facebook.rti.push.service.idsharing.FbnsSharingStateReceiver" />
+            <item name="com.facebook.groups.share.helpers.GroupOpenChooserShareIntentBroadcastReceiver" />
+            <item name="com.facebook.surveyplatform.remix.ui.RemixSurveyDialogActivity" />
+            <item name="com.facebook.composer.album.activity.AlbumSelectorActivity" />
+            <item name="com.facebook.attribution.AttributionIdService" />
+            <item name="com.facebook.crowdsourcing.grapheditor.activity.GraphEditorActivity" />
+            <item name="com.facebook.delayedworker.DelayedWorkerServiceReceiver" />
+            <item name="com.facebook.slideshow.SlideshowEditActivity" />
+            <item name="com.facebook.gdp.fpsu.FirstPartySignUpActivity" />
+            <item name="com.facebook.update.uri.legacy.ThirdPartyAppStoreRedirectActivity" />
+            <item name="com.facebook.businessintegrity.cloakingdetection.service.CloakingDetectionService" />
+            <item name="com.facebook.fbavatar.FbAvatarEditorActivity" />
+            <item name="com.facebook.quicksilver.QuicksilverActivity" />
+            <item name="com.facebook.katana.IntentUriHandler" />
+            <item name="com.facebook.video.commercialbreak.adbreakadminpreview.AdBreakAdminPreviewActivity" />
+            <item name="com.facebook.weasleyclock.ui.WeasleyClockNTActivity" />
+            <item name="com.facebook.feedplugins.endoffeed.activity.WhyAmISeeingThisActivity" />
+            <item name="com.facebook.inspiration.shortcut.shareintent.InspirationCameraExternalShareActivity" />
+            <item name="com.facebook.screencast.ScreencastService" />
+            <item name="com.facebook.nativetemplates.fb.action.securitykeyregisteraction.FBSecurityKeyRegisterActivity" />
+            <item name="com.facebook.pages.common.adminconsumption.feed.PageAdminConsumptionFeedActivity" />
+            <item name="com.facebook.audience.snacks.storysurface.activity.StoriesSurfaceActivity" />
+            <item name="com.facebook.location.ui.GeofenceViewerActivity" />
+            <item name="com.facebook.pumpkin.PumpkinService" />
+            <item name="com.facebook.katana.provider.KeyValueProvider" />
+            <item name="com.facebook.payments.transactionhub.HubSettingsActivity" />
+            <item name="com.facebook.rum.service.RumForegroundService" />
+            <item name="com.facebook.ixt.enrollmenttrigger.IXTEnrollmentActivity" />
+            <item name="com.facebook.auth.reauth.ReauthActivity" />
+            <item name="com.facebook.video.watch.entrypoint.WatchEntryPointLaunchService" />
+            <item name="com.facebook.payments.transactionhub.gamebalancedetails.HubGameBalanceDetailActivity" />
+            <item name="com.facebook.account.switcher.nux.ActivateDeviceBasedLoginNuxActivity" />
+            <item name="com.facebook.composer.localalert.picker.LocalAlertPickerRootActivity" />
+            <item name="com.facebook.browser.lite.BrowserLiteInMainProcessActivity" />
+            <item name="com.facebook.account.switcher.settings.DBLPinSettingsActivity" />
+            <item name="com.facebook.deeplinking.activity.DeepLinkingAliasActivity" />
+            <item name="com.facebook.payments.auth.pin.newpin.PaymentPinActivity" />
+            <item name="com.facebook.friending.newuserpromotion.NewUserPromotionActivity" />
+            <item name="com.facebook.goodwill.ar.GoodwillArLoadingActivity" />
+            <item name="com.facebook.quicksilver.webviewservice.QuicksilverTournamentDialogOverlayActivity" />
+            <item name="com.facebook.dialtone.activity.DialtoneWifiInterstitialActivity" />
+            <item name="com.facebook.katana.settings.messaging.UnifiedPresenceControlSettingsActivity" />
+            <item name="com.facebook.ui.legacynavbar.wordmark.debug.WordmarkDelightsPreferencesActivity" />
+            <item name="com.facebook.directinstall.shortcut.ShortcutInstallerService" />
+            <item name="com.facebook.adspayments.activity.AddressActivity" />
+            <item name="com.facebook.timeline.search.postsnullstatesurface.PostsNullStateActivity" />
+            <item name="com.facebook.payments.offers.view.FbPayOfferDetailActivity" />
+            <item name="com.facebook.ipc.composer.launch.ComposerLaunchActivity" />
+            <item name="com.facebook.quicksilver.webviewservice.QuicksilverHSShortcutActivity" />
+            <item name="com.facebook.weasleyclock.collection.WeasleyClockJobIntentService" />
+            <item name="com.facebook.actionitems.ActionItemsComposerActivity" />
+            <item name="com.facebook.quicksilver.webviewprocess.QuicksilverWebViewActivity" />
+            <item name="com.facebook.abtest.qe.db.QuickExperimentContentProvider" />
+            <item name="com.facebook.timeline.legacycontact.BeingLegacyContactActivity" />
+            <item name="com.facebook.timeline.gemstone.edit.settings.GemstoneEditSettingsActivity" />
+            <item name="com.facebook.marketplace.shops.activity.MarketplaceShopsActivity" />
+            <item name="com.facebook.confirmation.activity.PnuQpAddPhoneNumberActivity" />
+            <item name="com.facebook.hydemode.onboarding.HydeModeOnboardingActivity" />
+            <item name="com.facebook.timeline.majorlifeevent.creation.iconpicker.MajorLifeEventIconPickerActivity" />
+            <item name="com.facebook.instantarticles.InstantArticleActivity" />
+            <item name="com.facebook.games.feed.tab.GamesTabSearchActivity" />
+            <item name="com.facebook.quicksilver.webviewservice.QuicksilverSubscribeBotOverlayActivity" />
+            <item name="com.facebook.compost.service.CompostNotificationServiceReceiver" />
+            <item name="com.facebook.katana.dbl.activity.LoginLanguageSelectorActivity" />
+            <item name="com.facebook.katana.internsettingsactivity.WhitehatSettingsActivity" />
+            <item name="com.facebook.googleplay.GooglePlayInstallReferrerReceiver" />
+            <item name="com.facebook.games.afterparty.InstantGameChainingActivity" />
+            <item name="com.facebook.quicklog.module.QPLRecorderDumpActivity" />
+            <item name="com.facebook.voltron.prefs.VoltronDebugActivity" />
+            <item name="com.facebook.video.watch.settings.MediaAndContactActivity" />
+            <item name="com.facebook.account.simplerecovery.SimpleRecoveryActivity" />
+            <item name="com.facebook.adspayments.activity.PrepayFlowFundingActivity" />
+            <item name="com.facebook.composer.localalert.picker.LocalAlertTypePickerActivity" />
+            <item name="com.facebook.pages.app.composer.launch.BizComposerLauncherActivity" />
+            <item name="com.facebook.fbshorts.viewer.activity.FbShortsViewerActivity" />
+            <item name="com.facebook.offers.activity.OfferRedirectToWebActivity" />
+            <item name="com.facebook.games.entrypoint.deeplink.GamesDeeplinkErrorActivity" />
+            <item name="com.facebook.timeline.funfacts.container.FunFactContainerActivity" />
+            <item name="com.facebook.push.registration.FacebookPushServerFinishNotifiedGCMService" />
+            <item name="com.facebook.katana.provider.AttributionIdProvider" />
+            <item name="com.facebook.photos.provider.PhotosProvider" />
+            <item name="com.facebook.katana.activity.FbMainTabActivity" />
+            <item name="com.facebook.wem.shield.AddOverlayActivity" />
+            <item name="com.facebook.googleplay.GooglePlayInstallRefererService" />
+            <item name="com.facebook.richdocument.logging.debug.InstantArticleSectionLogsViewerActivity" />
+            <item name="com.facebook.quicksilver.webviewprocess.QuicksilverWarmupService" />
+            <item name="com.facebook.browser.lite.BrowserLiteInMainProcessBottomSheetActivity" />
+            <item name="com.facebook.glc.GLCServiceSchedulerReceiver" />
+            <item name="com.facebook.neko.playables.FBNekoPlayableAdActivity" />
+            <item name="com.facebook.katana.dbl.activity.DeviceBasedLoginActivity" />
+            <item name="com.facebook.timeline.stagingground.Fb4aProfilePictureShareActivityAlias" />
+            <item name="com.facebook.groups.workgroup.shiftrequest.ShiftRequestCreationActivity" />
+            <item name="com.facebook.bladerunner_examples.FBBladeRunnerWeatherPageActivity" />
+            <item name="com.facebook.contacts.service.ContactLocaleChangeReceiver" />
+            <item name="com.facebook.search.debug.SearchDebugActivity" />
+            <item name="com.facebook.pages.common.faq.PagesFAQAdminComposeActivity" />
+            <item name="com.facebook.growth.ndx.NDXActivity" />
+            <item name="com.facebook.secure.fileprovider.SecureFileProvider" />
+            <item name="com.facebook.browser.lite.BrowserLiteBottomSheetActivity" />
+            <item name="com.facebook.katana.platform.TokenRefreshService" />
+            <item name="com.facebook.payments.form.PaymentsFormActivity" />
+            <item name="com.facebook.ads.AudienceNetworkActivity" />
+            <item name="com.facebook.inspiration.composer.InspirationComposerPageStoriesHomebaseUriLauncherActivity" />
+            <item name="com.facebook.privacy.educator.DefaultPrivacyTransitionActivity" />
+            <item name="com.facebook.katana.LogoutActivity" />
+            <item name="com.facebook.quicksilver.webviewservice.QuicksilverErrorOverlayActivity" />
+            <item name="com.facebook.timeline.tabs.photos.activities.SinglePandoraFragmentActivity" />
+            <item name="com.facebook.rapidreporting.ui.FRXTagSearchActivity" />
+            <item name="com.facebook.qrcode.QRCodeLaunchActivity" />
+            <item name="com.facebook.voltron.scheduler.AppModuleAlarmBasedDownloader" />
+            <item name="com.facebook.crowdsourcing.feather.activity.FeatherActivity" />
+            <item name="com.facebook.pages.common.surface.ui.header.video.PagesCoverVideoEditActivity" />
+            <item name="com.facebook.timeline.gemstone.messaging.inbox.GemstoneInboxActivity" />
+            <item name="com.facebook.groups.fb4a.create.FB4AGroupsCreateNTLoadingActivity" />
+            <item name="com.facebook.composer.shareintent.AddToStoryAlias" />
+            <item name="com.facebook.professionalratertool.activity.RatingMainActivity" />
+            <item name="com.facebook.events.messaging.EventMessagingStoriesFeedbackActivity" />
+            <item name="com.facebook.notes.composer.NoteComposerActivity" />
+            <item name="com.facebook.quickpromotion.debug.SeguePreviewSettingsActivity" />
+            <item name="com.facebook.installnotifier.InstallNotifierService" />
+            <item name="com.facebook.cameraroll.fragment.CameraRollPreviewActivity" />
+            <item name="com.facebook.beam.sender.BeamReceiverTransferActivity" />
+            <item name="com.facebook.timeline.newpicker.fragments.NewPickerTabActivity" />
+            <item name="com.facebook.businessintegrity.adex.integrityvalidation.IntegrityValidationActivity" />
+            <item name="com.facebook.feed.prefs.NativeFeedSettingsActivity" />
+            <item name="com.facebook.navigation.tabbar.ui.tabcustomization.TabCustomizationSettingsActivity" />
+            <item name="com.facebook.feed.platformads.AppInstallTrackerService" />
+            <item name="com.facebook.account.switcher.settings.DBLLoggedInAccountSettingsActivity" />
+            <item name="com.facebook.oxygen.preloads.sdk.firstparty.managedappcache.IsManagedAppCacheJobService" />
+            <item name="com.facebook.pages.app.composer.activity.videocreation.scrubber.BizComposerVideoCreationThumbnailScrubberActivity" />
+            <item name="com.facebook.bladerunner_examples.FBBladeRunnerExamplesPageActivity" />
+            <item name="com.facebook.katana.provider.UserValuesProvider" />
+            <item name="com.facebook.events.invite.EventsExtendedInviteActivity" />
+            <item name="com.facebook.platform.common.activity.PlatformActivity" />
+            <item name="com.facebook.timeline.majorlifeevent.creation.media.MajorLifeEventMediaUnderwoodActivity" />
+            <item name="com.facebook.pages.app.stories.activity.settings.BizStorySettingsActivity" />
+            <item name="androidx.work.impl.foreground.SystemForegroundService" />
+            <item name="com.facebook.video.settings.language.LanguageInVideosPickerActivity" />
+            <item name="com.facebook.notifications.tray.actions.KeyguardDismissActivity" />
+            <item name="com.facebook.timeline.profileplus.followerslist.fragment.ProfileFollowersListActivity" />
+            <item name="com.facebook.pages.composer.pageselect.PageSelectorActivity" />
+            <item name="com.facebook.feed.bgfetch.FeedBackgroundPrefetchBroadcastReceiver" />
+            <item name="com.facebook.account.recovery.AccountRecoveryActivity" />
+            <item name="com.facebook.registration.notification.RegistrationNotificationService" />
+            <item name="com.facebook.voltron.fbdownloader.AppModuleDownloadGcmTaskService" />
+            <item name="com.facebook.local.pagerecommendations.composerlauncher.PageRecommendationsComposerLauncherActivity" />
+            <item name="com.facebook.account.switcher.activity.SimpleAccountSwitcherActivity" />
+            <item name="com.facebook.nativetemplates.fb.action.custombottomsheetactivitysupport.NTCustomBottomSheetHostingActivity" />
+            <item name="com.facebook.ixttriggers.playground.IXTTriggerPlaygroundActivity" />
+            <item name="com.facebook.groups.workgroup.videomeetup.VideoMeetupActivity" />
+            <item name="com.facebook.browser.liteclient.rapidfeedback.BrowserLiteRapidFeedbackActivity" />
+            <item name="com.facebook.contacts.provider.ContactsConnectionsProvider" />
+            <item name="com.facebook.directinstall.feed.progressservice.InstallNotificationService" />
+            <item name="com.facebook.backgroundlocation.process.BackgroundLocationGatheringService" />
+            <item name="com.facebook.http.prefs.delaybasedqp.DelayBasedHttpQPActivity" />
+            <item name="com.facebook.payments.receipt.subscription.PaymentsSubscriptionReceiptActivity" />
+            <item name="com.facebook.payments.contactinfo.form.ContactInfoFormActivity" />
+            <item name="com.facebook.analytics2.logger.HighPriUploadRetryReceiver" />
+            <item name="com.facebook.zero.optin.activity.ZeroOptinInterstitialActivity" />
+            <item name="com.facebook.location.qmigration.LocationQDeviceSettingsActivity" />
+            <item name="com.facebook.marketplace.deeplink.MarketplaceSellWithShippingDeeplinkActivity" />
+            <item name="com.facebook.photos.editgallery.EditGalleryActivity" />
+            <item name="com.facebook.offers.activity.OfferNfcActivity" />
+            <item name="com.facebook.pages.common.requesttime.shared.cancelappointment.RejectAppointmentActivity" />
+            <item name="com.facebook.registration.activity.RegistrationLoginActivity" />
+            <item name="com.facebook.conditionalworker.ConditionalWorkerService" />
+            <item name="com.facebook.payments.checkout.activity.updatecheckout.simpleupdatecheckout.CheckoutUpdateActivity" />
+            <item name="com.facebook.glc.GLCService" />
+            <item name="com.facebook.timeline.legacycontact.RememberMemorializedActivity" />
+            <item name="com.facebook.timeline.contextualprofiles.platform.activity.IMContextualProfileActivity" />
+            <item name="com.facebook.media.local.UpdateLocalMediaStoreJobService" />
+            <item name="com.facebook.platform.common.provider.PlatformProviderBase" />
+            <item name="com.facebook.push.fcm.FcmListenerService" />
+            <item name="com.facebook.timeline.contextualprofiles.platform.editactivity.IMContextualProfileEditActivity" />
+            <item name="com.facebook.timeline.timewall.TimewallSettingsActivity" />
+            <item name="com.facebook.katana.activity.ImmersiveTransparentActivity" />
+            <item name="com.facebook.timeinapp.quietmode.activity.TimeInAppQuietModeInterstitialActivity" />
+            <item name="com.facebook.video.settings.VideoAutoPlaySettingsActivity" />
+            <item name="com.facebook.abtest.qe.settings.QuickExperimentViewActivity" />
+            <item name="com.facebook.push.registration.FacebookPushServerFinishNotifiedLollipopService" />
+            <item name="com.facebook.location.optin.LocationSettingsReviewOptInActivity" />
+            <item name="com.facebook.notifications.tray.service.SystemTrayLogWrapperActivity" />
+            <item name="com.facebook.tagging.conversion.FriendSuggestionsAndSelectorActivity" />
+            <item name="com.facebook.appcomponentmanager.testreceivers.FirstEnableStageTestReceiver" />
+            <item name="com.facebook.quicklog.module.QPLEventFlushActivity" />
+            <item name="com.facebook.adsexperiencetool.AdsInjectConfirmationActivity" />
+            <item name="com.facebook.conditionalworker.LollipopConditionalWorkerService" />
+            <item name="com.facebook.feed.browserads.videoads.activity.BrowserWithVideoAdsActivity" />
+            <item name="com.facebook.video.tv.notification.CastNotificationActionService" />
+            <item name="com.facebook.push.negativefeedback.PushNegativeFeedbackFbJobIntentService" />
+            <item name="com.google.android.gms.common.api.GoogleApiActivity" />
+            <item name="com.facebook.rum.service.RumCallbackService" />
+            <item name="com.facebook.location.optin.DeviceLocationSettingsOptInActivity" />
+            <item name="com.facebook.actorgateway.ui.ActorGatewayActivity" />
+            <item name="com.facebook.languages.switcher.activity.LanguageSwitcherActivity" />
+            <item name="com.facebook.timeline.majorlifeevent.creation.activity.MajorLifeEventComposerRootActivity" />
+            <item name="com.facebook.oxygen.preloads.integration.sso.PostInstallSsoActivity" />
+            <item name="com.facebook.inappupdate.InAppUpdateDebugActivity" />
+            <item name="com.facebook.payments.checkout.activity.TetraPaymentMethodPickerActivity" />
+            <item name="com.facebook.pages.app.stories.activity.settings.publishoptions.BizStoryPublishOptionsActivity" />
+            <item name="com.facebook.facecast.livingroom.deeplink.LivingRoomShareSheetActivity" />
+            <item name="com.facebook.account.securitykeys.playground.PlaygroundActivity" />
+            <item name="com.facebook.glc.LongRunningWifiMonitorService" />
+            <item name="com.facebook.messaginginblue.interop.ui.activity.XacInterstitialActivity" />
+            <item name="com.facebook.beam.hotspotui.client.WifiClientConnectionActivity" />
+            <item name="com.facebook.socialwifi.notification.SocialWifiNotificationService" />
+            <item name="com.facebook.composer.destinations.pages.groupsforpage.activity.PageSharesheetGroupSelectionActivity" />
+            <item name="com.facebook.instantarticles.paywall.StonehengeCarouselFirstArticleWebRedirectAccountLinkingHelperActivity" />
+            <item name="com.facebook.quicksilver.util.QuicksilverShortcutCreationUtil$ShortcutMadeIntentReceiver" />
+            <item name="com.facebook.payments.checkout.activity.TetraShippingOptionPickerActivity" />
+            <item name="com.facebook.bladerunner_examples.FBBladeRunnerExamplesChatRoomPageActivity" />
+            <item name="com.facebook.payments.checkout.activity.ShippingPickerActivity" />
+            <item name="com.facebook.notifications.push.loggedoutpush.interstitial.NotificationsLoggedOutPushInterstitialActivity" />
+            <item name="com.facebook.timeline.gemstone.messaging.thread.conversationstarter.MessagingThreadConversationStarterComposerActivity" />
+            <item name="com.facebook.locationcomponents.distancepicker.DistancePickerActivity" />
+            <item name="com.facebook.timeline.majorlifeevent.creation.sharesheet.DummyDialogActivity" />
+            <item name="com.facebook.account.recovery.ear.ExtendedAccountRecoveryActivity" />
+            <item name="com.facebook.languages.switcher.activity.LanguageSwitcherBookmarksActivity" />
+            <item name="com.facebook.feedplugins.firstpartymusic.fullscreen.FullscreenMusicActivity" />
+            <item name="com.facebook.push.mqtt.service.MqttPushHelperService" />
+            <item name="com.facebook.photos.upload.service.PhotosUploadHelperService" />
+            <item name="com.facebook.timeline.profileplus.followerslist.fragment.ProfileSingleListActivity" />
+            <item name="com.facebook.quickpromotion.debug.QuickPromotionFiltersActivity" />
+            <item name="com.facebook.katana.dbl.activity.FacebookLoginActivity" />
+            <item name="com.facebook.katana.activity.media.photoset.PhotoSetActivity" />
+            <item name="com.facebook.account.twofac.codegenerator.ui.CodeGeneratorAutoProvisionSecretActivity" />
+            <item name="com.facebook.adinterfaces.adcenter.AdCenterHostingActivity" />
+            <item name="com.facebook.push.registration.FacebookPushServerRegistrar$LocalBroadcastReceiver" />
+            <item name="com.facebook.pages.app.composer.activity.edit.base.BizComposerEditActivity" />
+            <item name="com.facebook.payments.paymentmethods.provider.PaymentProviderActivity" />
+            <item name="com.facebook.marketingdeeplinks.facebookdeeplinks.MDPFacebookDeeplinkActivity" />
+            <item name="com.facebook.messaginginblue.threadview.ui.activity.main.MibMainActivity" />
+            <item name="com.facebook.delights.settings.TextDelightsPreferencesActivity" />
+            <item name="com.facebook.payments.auth.AuthenticationActivity" />
+            <item name="com.facebook.timeline.majorlifeevent.creation.category.MajorLifeEventCategorySelectionActivity" />
+            <item name="com.facebook.messaginginblue.inbox.activities.tabbedinbox.TabbedInboxActivity" />
+            <item name="com.facebook.nobreak.CrashLoop$LastState" />
+            <item name="com.facebook.datasensitivity.DataSavingsModeSettingsActivity" />
+            <item name="com.facebook.crowdsourcing.suggestedits.activity.SuggestEditsActivity" />
+            <item name="com.facebook.growth.consent.CIActivity" />
+            <item name="com.facebook.timeline.contextualprofiles.platform.editactivity.IMContextualProfileEditJobTitleActivity" />
+            <item name="com.facebook.reportaproblem.base.bugreport.BugReportUploadService" />
+            <item name="com.facebook.ipc.videos.tv.TVCastingBottomSheetLaunchActivity" />
+            <item name="com.facebook.timeline.gemstone.edit.profile.questions.QuestionComposerActivity" />
+            <item name="com.facebook.events.create.cohostv2.EventCohostActivity" />
+            <item name="com.facebook.languages.switcher.activity.SuggestedLanguageSwitchActivity" />
+            <item name="com.facebook.messaginginblue.profile.ui.activity.MessagingInBlueHeaderProfileActivity" />
+            <item name="com.facebook.katana.UriAuthHandler" />
+            <item name="com.facebook.events.ui.themeselector.ThemeSelectorActivity" />
+            <item name="com.facebook.push.mqtt.receiver.BootCompleteBroadcastReceiver" />
+            <item name="com.facebook.groups.shared.bottomsheet.GroupsBottomSheetActivity" />
+            <item name="com.facebook.growth.contactimporter.StepInviteActivity" />
+            <item name="com.facebook.fbreact.fragment.ReactActivity" />
+            <item name="com.facebook.composer.ui.publishmode.PublishModeSelectorActivity" />
+            <item name="com.facebook.katana.urimap.NeoDeeplinkUriActivity" />
+            <item name="com.facebook.device_id.UniqueIdSupplier" />
+            <item name="com.facebook.events.privacy.EditEventsResponsePrivacyActivity" />
+            <item name="com.facebook.katana.activity.PlatformFacewebActivity" />
+            <item name="com.facebook.backgroundlocation.reporting.periodic.PeriodicSignalCollectorGcmService" />
+            <item name="com.facebook.device_id.DefaultPhoneIdRequestReceiver" />
+            <item name="com.facebook.directinstall.appdetails.ScreenshotFullscreenActivity" />
+            <item name="com.facebook.inspiration.composer.InspirationComposerActivity" />
+            <item name="com.facebook.workshared.integrations.oauth.activity.WorkAppIntegrationOAuthActivity" />
+            <item name="com.facebook.common.dextricksprefs.ViewDetailActivity" />
+            <item name="com.facebook.browser.lite.BrowserLite2Activity" />
+            <item name="com.facebook.crowdsourcing.placepin.PlacePinEditActivity" />
+            <item name="com.facebook.displaytimeinvalidation.service.DisplayTimeBlockIntentService" />
+            <item name="com.facebook.pages.common.productqa.urilauncher.PagesProductQAQuestionsUriLauncherActivity" />
+            <item name="com.facebook.photos.pandora.ui.PandoraTabPagerActivity" />
+            <item name="com.facebook.photos.albumcreator.privacy.AlbumCreatorContributorAudiencePickerActivity" />
+            <item name="com.facebook.familybridges.installation.ui.FamilyAppInstallationActivity" />
+            <item name="com.facebook.audience.stories.igimporting.settingactivity.IgStoriesImportingTurnOffActivity" />
+            <item name="com.facebook.AdsComposerActivity" />
+            <item name="com.facebook.negativefeedback.ui.NegativeFeedbackHostActivity" />
+            <item name="com.facebook.rapidfeedback.survey.LandingPageSurveyActivity" />
+            <item name="com.facebook.zero.zerobalance.ui.AutoflexDataAvailableScreen" />
+            <item name="com.facebook.messaging.database.threads.ThreadsDbPropertiesContentProvider" />
+            <item name="com.facebook.backgroundlocation.upsell.BackgroundLocationResurrectionActivity" />
+            <item name="com.facebook.composer.shareintent.prefill.events.PrefilledEventShareComposerLauncherActivity" />
+            <item name="com.facebook.places.create.home.HomeCreationActivity" />
+            <item name="com.facebook.goodwill.composer.GoodwillVideoComposerLauncher" />
+            <item name="com.facebook.quicksilver.views.common.QuicksilverMenuFeedbackActivity" />
+            <item name="com.facebook.facecast.deeplink.FacecastDeeplinkActivity" />
+            <item name="com.facebook.stickers.store.StickerStoreActivity" />
+            <item name="com.facebook.games.entrypoint.deeplink.GamesDeepLinkActivity" />
+            <item name="com.facebook.ixt.playground.IXTContentTriggerTestUserActivity" />
+            <item name="com.facebook.push.registration.FacebookPushServerRegistrarGCMService" />
+            <item name="com.facebook.payments.p2p.p2pinblue.idv.P2PInBlueIDVActivity" />
+            <item name="com.facebook.appupdate.DownloadCompleteService" />
+            <item name="com.facebook.socal.SocalMainActivity" />
+            <item name="com.facebook.devicerequests.DeviceRequestUtils$DeviceRequestNotificationHandlerActivity" />
+            <item name="com.facebook.languages.switcher.LanguageSwitchPromotionActivity" />
+            <item name="com.facebook.placecuration.placeqrcode.PlaceQRCodeActivity" />
+            <item name="com.facebook.dialtone.activity.DialtoneUnsupportedCarrierInterstitialActivity" />
+            <item name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity" />
+            <item name="com.facebook.videolite.api.jobscheduler.UploadJobSchedulerService" />
+            <item name="com.facebook.placecuration.PlaceCurationActivity" />
+            <item name="com.facebook.feed.prefs.FeedDataActivity" />
+            <item name="com.facebook.businessintegrity.mlex.adactivity.dashboard.AdActivityDashboardActivity" />
+            <item name="com.facebook.video.videohome.prefs.VideoHomeSettingsActivity" />
+            <item name="com.facebook.account.login.notification.LoginNotificationServiceReceiver" />
+            <item name="com.facebook.abtest.gkprefs.GkSettingsListActivity" />
+            <item name="com.facebook.directinstall.feed.progressservice.ProgressService" />
+            <item name="com.facebook.places.suggestions.common.SuggestProfilePicUploadService" />
+            <item name="com.facebook.surveyplatformdev.InjectedIntegrationPointStatusActivity" />
+            <item name="com.facebook.debug.debugoverlay.DebugOverlaySettingsActivity" />
+            <item name="com.facebook.growth.ndx.NDXActivity2" />
+            <item name="com.facebook.delayedworker.DelayedWorkerService" />
+            <item name="com.facebook.smartcapture.view.PermissionsActivity" />
+            <item name="com.facebook.nearbyinsights.CheckInPostActivity" />
+            <item name="com.facebook.messaging.neue.nux.webview.NeueNuxWebViewActivity" />
+            <item name="com.facebook.facecast.livingroom.prepopulation.LivingRoomPrePopActivity" />
+            <item name="com.facebook.growth.friendfinder.FriendFinderLearnMoreActivity" />
+            <item name="com.facebook.facecast.livingroom.deeplink.LivingRoomComposerActivity" />
+            <item name="com.facebook.registration.service.NewAccountStateLoggingService" />
+            <item name="com.facebook.payments.checkout.checkoutv2.CheckoutActivityV2" />
+            <item name="com.facebook.checkpoint.CheckpointActivity" />
+            <item name="com.facebook.composer.localalert.picker.LocalAlertLocationTypeaheadActivity" />
+            <item name="com.facebook.places.checkin.PlaceCrowdsourcePhotoActivity" />
+            <item name="com.facebook.feed.browserads.util.BrowserAdsFragmentContainerActivity" />
+            <item name="com.facebook.zero.optin.activity.DialtoneOptinInterstitialActivity" />
+            <item name="com.facebook.zero.internal.ZeroDogfoodingAppActivity" />
+            <item name="com.facebook.account.twofac.push.LoginApprovalsPushActivity" />
+            <item name="com.facebook.payments.auth.dynamicdescriptor.DDExternalIntentActivity" />
+            <item name="com.facebook.zero.upsell.activity.ZeroUpsellBuyConfirmInterstitialActivity" />
+            <item name="com.facebook.audience.stories.archive.StoriesArchiveActivity" />
+            <item name="com.facebook.oxygen.preloads.integration.dogfooding.AppManagerSsoProvider" />
+            <item name="com.facebook.feed.platformads.AppInstallService" />
+            <item name="com.facebook.events.tickets.modal.EventStartSelectTicketsActivity" />
+            <item name="com.facebook.katana.orca.diode.DiodeMessengerActivity" />
+            <item name="com.facebook.device_id.DefaultPhoneIdProvider" />
+            <item name="com.facebook.photos.pandora.ui.mediaset.PandoraMediaSetActivity" />
+            <item name="com.facebook.registration.service.NewAccountStateLoggingServiceReceiver" />
+            <item name="com.facebook.voltron.ui.impl.AppModuleDownloadActivity" />
+            <item name="com.facebook.rti.orca.MainService" />
+            <item name="com.facebook.push.crossapp.PackageFullyRemovedBroadcastReceiver" />
+            <item name="com.facebook.payments.confirmation.ConfirmationActivity" />
+            <item name="com.facebook.localcontent.menus.PhotoMenuUploadActivity" />
+            <item name="com.facebook.voltron.ui.impl.AppModuleDownloadActivity2" />
+            <item name="com.facebook.places.create.NewPlaceCreationActivity" />
+            <item name="com.facebook.push.registration.RegistrarHelperReceiver" />
+            <item name="com.facebook.about.AboutActivity" />
+            <item name="com.facebook.timeline.header.intro.hobbies.edit.TimelineEditHobbiesActivity" />
+            <item name="com.facebook.account.twofac.codegenerator.ui.CodeGeneratorManualProvisionSecretActivity" />
+            <item name="com.facebook.games.clipsdiscovery.ClipsDiscoveryActivity" />
+            <item name="com.facebook.adinterfaces.AdInterfacesObjectiveActivity" />
+            <item name="com.facebook.pages.app.booking.launcher.FBServicesBloksLaunchActivity" />
+            <item name="com.facebook.composer.activity.ComposerActivity" />
+            <item name="com.facebook.video.settings.globalsubtitle.GlobalSubtitleSettingsActivity" />
+            <item name="com.facebook.fbreact.fragment.DimmedTransparentReactActivity" />
+            <item name="com.facebook.browser.liteclient.report.BrowserReportingInterstitialActivity" />
+            <item name="com.facebook.events.inappmessaging.EventsInAppMessagingActivity" />
+            <item name="com.facebook.bladerunner_examples.FBBladeRunnerHelloWorldPageActivity" />
+            <item name="com.facebook.battery.monitor.ContinuousBatteryMonitorService" />
+            <item name="com.facebook.treehenge.CSTreehengeVideoConsiderationPageActivity" />
+            <item name="com.facebook.push.crossapp.PackageRemovedReporterService" />
+            <item name="com.facebook.katana.settings.activity.SettingsActivity" />
+            <item name="com.facebook.zero.optin.activity.NativeOptinInterstitialActivity" />
+            <item name="com.facebook.timeline.postscuration.ManagePostsActivity" />
+            <item name="com.facebook.smartcapture.view.SelfieDataInformationActivity" />
+            <item name="com.facebook.browser.lite.BrowserLiteInMainProcess2Activity" />
+            <item name="com.facebook.common.dextricksprefs.DextricksActivity" />
+            <item name="com.facebook.payments.dcp.sample.PaymentsDcpSampleActivity" />
+            <item name="com.facebook.katana.NotificationSettingsActivity" />
+            <item name="com.facebook.timeline.music.MusicFullListActivity" />
+            <item name="com.facebook.urlhandler.FreeSuiteUpsellCreatePostUriLauncherActivity" />
+            <item name="com.facebook.events.tickets.modal.EventTicketsOrdersActivity" />
+            <item name="com.facebook.facecast.launcher.FacecastUnsupportedActivity" />
+            <item name="com.facebook.account.login.notification.LoginNotificationServiceScheduler" />
+            <item name="com.facebook.timeline.header.intro.featured.FeaturedTypesActivity" />
+            <item name="com.facebook.inspiration.capture.multicapture.editor.InspirationSegmentEditorActivity" />
+            <item name="com.facebook.payments.picker.PickerScreenActivity" />
+            <item name="com.facebook.browser.external.ChromeCustomTabsHandlerService" />
+            <item name="com.facebook.smartcapture.view.IdCaptureActivity" />
+            <item name="com.facebook.clashmanagement.debug.ClashManagementSettingsActivity" />
+            <item name="com.facebook.bugreporter.activity.BugReportActivity" />
+            <item name="com.facebook.actionexperience.ui.ActionExperienceActivity" />
+            <item name="com.facebook.languages.switcher.LanguageSwitchActivity" />
+            <item name="com.facebook.graphql.executor.offlinemutations.OfflineMutationsRetryJobService" />
+            <item name="com.facebook.account.login.activity.SimpleLoginActivity" />
+            <item name="com.facebook.platform.auth.activity.AccountKitConfirmationCodeActivity" />
+            <item name="com.facebook.katana.view.LoggedOutWebViewActivity" />
+            <item name="com.facebook.friendsharing.gif.activity.GifPickerActivity" />
+            <item name="com.facebook.pages.app.composer.activity.settings.base.BizComposerSettingActivity" />
+            <item name="com.facebook.games.channelfeed.GamesChannelFeedActivity" />
+            <item name="com.facebook.oxygen.preloads.integration.sso.PostInstallSsoReceiver" />
+            <item name="com.facebook.placecuration.suggestedits.activity.SuggestEditsActivity" />
+            <item name="com.facebook.composer.shareintent.prefill.PrefilledComposerLauncherActivity" />
+            <item name="com.facebook.zero.internal.ZeroUrlDebugActivity" />
+            <item name="com.facebook.dialtone.activity.DialtoneUriIntentHandlerActivity" />
+            <item name="com.facebook.browser.lite.BrowserLiteActivity" />
+            <item name="com.facebook.events.tickets.singlestep.EventSingleStepTicketingActivity" />
+            <item name="com.facebook.timeline.newpicker.expandedcard.NewPickerMediaSetActivity" />
+            <item name="com.facebook.growth.promotion.NativeNameActivity" />
+            <item name="com.facebook.timeline.legacycontact.MemorialFriendRequestsNTActivity" />
+            <item name="com.facebook.surveyplatform.presentation.RemixSurveyDialogActivity" />
+            <item name="com.facebook.inspiration.composer.InspirationComposerUriLauncherActivity" />
+            <item name="com.facebook.adinterfaces.AdInterfacesCouponInterstitialActivity" />
+            <item name="androidx.room.MultiInstanceInvalidationService" />
+            <item name="com.facebook.fbpay.hub.activity.FBPayHubActivity" />
+            <item name="com.facebook.sotto.SottoConsiderationActivity" />
+            <item name="com.facebook.bugreporter.scheduler.AlarmsBroadcastReceiver" />
+            <item name="com.facebook.messaging.professionalservices.booking.activities.AppointmentActivity" />
+            <item name="com.facebook.facecast.display.debugoverlay.FacecastDebugOverlayService" />
+            <item name="com.facebook.customsettings.AccountSettingsActivity" />
+            <item name="com.facebook.common.init.OnAppUpdateReceiver" />
+            <item name="com.facebook.growth.friendfinder.FriendFinderHostingActivity" />
+            <item name="com.facebook.katana.activity.FbMainTabFinisherActivity" />
+            <item name="com.facebook.stonehenge.StonehengeShowOffersActivity" />
+            <item name="com.facebook.events.messaging.EventMessagingConnectedUsersActivity" />
+            <item name="com.facebook.payments.shipping.form.ShippingAddressActivity" />
+            <item name="com.facebook.payments.auth.settings.PaymentPinSettingsActivity" />
+            <item name="com.facebook.dialtone.switcher.DialtoneManualSwitcherNuxRedesignActivity" />
+            <item name="com.facebook.smartcapture.view.PhotoReviewActivity" />
+            <item name="com.facebook.events.tickets.selfservice.EventTicketsManagementActivity" />
+            <item name="com.facebook.transliteration.TransliterationQPActivity" />
+            <item name="com.facebook.feed.prefs.NewsfeedEventLogActivity" />
+            <item name="com.facebook.oxygen.preloads.sdk.firstparty.managedappcache.IsManagedAppReceiver" />
+            <item name="com.facebook.notifications.push.loggedoutpush.testtool.LoggedOutPushTestActivity" />
+            <item name="com.facebook.fds.patterns.multiselect.FDSMultiSelectPatternActivity" />
+            <item name="com.facebook.composer.media.picker.fragment.MediaPickerActivity" />
+            <item name="com.facebook.push.fbnslite.FbnsLitePushNotificationHandler$FbnsLiteCallbackReceiver" />
+            <item name="com.facebook.timeline.gemstone.community.seeall.GemstoneSeeAllCommunitiesActivity" />
+            <item name="com.facebook.securitycheckup.SecurityCheckupMainActivity" />
+            <item name="com.facebook.adinterfaces.MapAreaPickerActivity" />
+            <item name="com.facebook.stonehenge.subscriberexperience.StonehengeSubscriberSettingsActivity" />
+            <item name="com.facebook.feed.storyunderstanding.settings.StoryUnderstandingSettingsActivity" />
+            <item name="com.facebook.surveyplatformdev.DebugRemixSurveyActivity" />
+            <item name="com.facebook.commercecamera.CommerceCameraActivity" />
+            <item name="com.facebook.quicksilver.webviewservice.QuicksilverStartScreenOverlayActivity" />
+            <item name="com.facebook.permanet.PermaNetService" />
+            <item name="com.facebook.messaging.media.mediapicker.MediaPickerActivity" />
+            <item name="com.facebook.quicksilver.webviewservice.QuicksilverShareMenuActivity" />
+            <item name="com.facebook.quicksilver.webviewservice.QuicksilverZeroRatedInterstitialActivity" />
+            <item name="com.facebook.messaging.chatheads.interstitialnux.ChatHeadsInterstitialNuxLauncherActivity" />
+            <item name="com.facebook.pages.app.composer.activity.tailoring.video.BizTailoringVideoEditingActivity" />
+            <item name="com.facebook.audience.stories.highlights.editstoryhighlights.EditStoryHighlightsActivity" />
+            <item name="com.facebook.browser.lite.debug.debugger.BrowserLiteDebuggerActivity" />
+            <item name="com.facebook.katana.provider.ConnectionsProvider" />
+            <item name="com.facebook.zero.internal.ZeroInternStatusActivity" />
+            <item name="com.facebook.smartcapture.fbprefs.SmartCaptureInternalSettingsActivity" />
+            <item name="com.facebook.mobileconfig.ui.MobileConfigPreferenceActivity" />
+            <item name="com.facebook.adinterfaces.adcenter.AdCenterPostSelectorHostingActivity" />
+            <item name="com.facebook.music.miniplayer.service.MiniPlayerService" />
+            <item name="com.facebook.marketingdeeplinks.MarketingDeeplinkInstagramUriRedirectionActivity" />
+            <item name="com.facebook.pages.common.faq.PagesFAQAdminEditActivity" />
+            <item name="com.facebook.notifications.tray.NotificationsRemovalTimerReceiver" />
+            <item name="com.facebook.notifications.settings.SystemNotificationSettingsActivity" />
+            <item name="com.facebook.pages.common.productqa.activity.PagesProductQAQuestionsActivity" />
+            <item name="com.facebook.video.watch.entrypoint.WatchEntryPointLaunchActivity" />
+            <item name="com.facebook.groups.memberlist.moderationupsell.GroupFullTopFanModeratorListActivity" />
+            <item name="androidx.lifecycle.ProcessLifecycleOwnerInitializer" />
+            <item name="com.facebook.adinterfaces.service.BoostLiveService" />
+            <item name="com.facebook.places.create.home.HomeEditActivity" />
+            <item name="com.facebook.groups.memberlist.GroupMemberListHostingActivity" />
+            <item name="com.facebook.local.recommendations.editpostlocation.RecommendationsEditPostLocationActivity" />
+            <item name="com.facebook.audience.stories.highlights.StoriesHighlightsActivity" />
+            <item name="com.facebook.reviewcleanup.ReviewCleanupActivity" />
+            <item name="com.facebook.quicksilver.webviewservice.QuicksilverPaymentsActivity" />
+            <item name="com.facebook.timeline.actionbar.ContextualProfileDynamicActionBarOverflowActivity" />
+            <item name="com.facebook.payments.p2p.p2pinblue.activity.P2PinBlueActivity" />
+            <item name="com.facebook.location.optin.AccountLocationSettingsOptInActivity" />
+            <item name="com.facebook.timeline.additionalprofiles.creationactivity.activity.AdditionalProfileCreationActivity" />
+            <item name="com.facebook.video.insight.VideoInsightActivity" />
+            <item name="com.facebook.notes.NotesActivity" />
+            <item name="com.facebook.browser.lite.BrowserLiteIntentService" />
+            <item name="com.facebook.photos.taggablegallery.ProductionVideoGalleryActivity" />
+            <item name="com.facebook.messaginginblue.diode.activity.InboxInterstitialActivity" />
+            <item name="androidx.biometric.DeviceCredentialHandlerActivity" />
+            <item name="com.facebook.privacy.consent.example.ConsentPromptExampleActivity" />
+            <item name="com.facebook.quicksilver.webviewservice.QuicksilverNTDialogOverlayActivity" />
+            <item name="com.facebook.browser.liteclient.BrowserLiteCallbackService" />
+            <item name="com.facebook.video.activity.FullscreenVideoPlayerActivity" />
+            <item name="com.google.firebase.components.ComponentDiscoveryService" />
+            <item name="com.facebook.messaging.notify.logging.MessagesSystemTrayLogService" />
+            <item name="com.facebook.messaging.database.threads.MessagesDbContentProvider" />
+            <item name="com.facebook.katana.activity.nearby.NearbyPlacesActivity" />
+            <item name="com.facebook.composer.shareintent.ImplicitShareIntentHandlerDefaultAlias" />
+            <item name="com.facebook.photos.albumcreator.activity.AlbumFetchEditFieldsActivity" />
+            <item name="com.facebook.inappupdate.InAppUpdateActivity" />
+            <item name="com.facebook.deeplinking.activity.StoryDeepLinkLoadingActivity" />
+            <item name="com.facebook.games.afterparty.InstantGameLinkShareActivity" />
+            <item name="com.google.firebase.iid.FirebaseInstanceIdReceiver" />
+            <item name="com.facebook.profilelist.ProfilesListActivity" />
+            <item name="com.facebook.ixt.playground.IXTTriggerPlaygroundActivity" />
+            <item name="com.facebook.zero.zerobalance.ui.AutoflexOptinInterstitialActivity" />
+            <item name="com.facebook.photos.taggablegallery.TaggableGalleryActivity" />
+            <item name="com.facebook.registration.activity.RegistrationCampaignActivity" />
+            <item name="com.facebook.photos.albumcreator.activity.AlbumCreateAndEditActivity" />
+            <item name="com.facebook.search.results.fragment.breakingnews.SearchResultsBreakingNewsActivity" />
+            <item name="com.facebook.reportingcoordinator.RapidReportingHostActivity" />
+            <item name="com.facebook.fxcal.sso.nux.FXSSOBusinessOrSharedAccountsNuxActivity" />
+            <item name="com.facebook.games.bookmark.GamesBookmarkSearchActivity" />
+            <item name="com.facebook.widget.friendselector.CaspianFriendSelectorActivity" />
+            <item name="com.facebook.idverification.IDVerificationCameraActivity" />
+            <item name="com.facebook.rapidreporting.ui.LightweightFeedbackActivity" />
+            <item name="com.facebook.media.local.UpdateLocalMediaStoreGcmTaskService" />
+            <item name="com.facebook.katana.activity.profilelist.FriendSingleSelectorActivity" />
+            <item name="com.facebook.voltron.scheduler.AppModuleDownloadJobService" />
+            <item name="com.facebook.adinterfaces.AdInterfacesExtendedObjectivesOfflineActivity" />
+            <item name="com.facebook.video.heroplayer.remotecodec.service.CodecService" />
+            <item name="com.facebook.abtest.qe.settings.QuickExperimentListActivity" />
+            <item name="com.facebook.payments.auth.pin.newpinv2.PaymentPinV2Activity" />
+            <item name="com.facebook.adspayments.activity.SelectPaymentOptionActivity" />
+            <item name="com.facebook.appupdate.AppUpdateService" />
+            <item name="com.facebook.audiencenetwork.AudienceNetworkService" />
+            <item name="com.facebook.katana.provider.FirstPartyUserValuesProvider" />
+            <item name="com.facebook.loco.memberprofile.LocoMemberProfileActivity" />
+            <item name="com.facebook.groups.editsettings.location.activity.LocalGroupTypeaheadActivity" />
+            <item name="com.facebook.topfans.TopFansManageCommentBannerActivity" />
+            <item name="com.facebook.movies.checkout.MovieCheckoutActivity" />
+            <item name="com.facebook.beam.sender.BeamReceiverService" />
+            <item name="com.facebook.payments.simplescreen.PaymentsSimpleScreenActivity" />
+            <item name="com.facebook.payments.paymentmethods.cardform.CardFormActivity" />
+            <item name="com.facebook.confirmation.task.SMSBroadcastReceiver" />
+            <item name="com.facebook.feedplugins.share.inlinesharesheet.ShareToNewGroupActivity" />
+            <item name="com.facebook.payments.receipt.PaymentsReceiptActivity" />
+            <item name="com.facebook.pages.app.composer.activity.settings.placement.BizPostPlacementActivity" />
+            <item name="com.facebook.commercecamera.CommerceCameraUriLauncherActivity" />
+            <item name="com.facebook.credentials.AuthTokenDebugLogger" />
+            <item name="com.facebook.socialgood.create.beneficiaryselector.FundraiserCreationBeneficiarySelectorActivity" />
+            <item name="com.facebook.payments.paymentmethods.bankaccount.BankAccountActivity" />
+            <item name="com.facebook.local.recommendations.placepicker.RecommendationsPlacePickerActivity" />
+            <item name="com.facebook.crossposting.whatsapp.ShareToStoryActivity" />
+            <item name="com.facebook.adspayments.activity.IntentRouteHandlerActivity" />
+            <item name="com.facebook.graphql.fleetbeacon.preference.FleetBeaconPreferenceActivity" />
+            <item name="com.facebook.photos.pandora.ui.PandoraAlbumMediaSetActivity" />
+            <item name="com.facebook.composer.shareintent.ImplicitShareIntentHandler" />
+            <item name="com.facebook.composer.minutiae.activity.MinutiaeObjectSelectorActivity" />
+            <item name="com.facebook.pages.common.brandedcontent.BrandedContentSuggestionAndSelectionActivity" />
+            <item name="com.facebook.pages.app.booking.calendar.AppointmentCalendarActivity" />
+            <item name="com.facebook.oxygen.preloads.sdk.firstparty.managedappcache.IsManagedAppCacheService" />
+            <item name="com.facebook.video.creatorchannel.CreatorChannelsActivity" />
+            <item name="com.facebook.analytics2.logger.LollipopUploadService" />
+            <item name="com.facebook.goodwill.composer.GoodwillComposerActivity" />
+            <item name="com.facebook.places.create.PlaceCreationCityPickerActivity" />
+            <item name="androidx.core.content.FileProvider" />
+            <item name="com.facebook.push.fcm.FcmRegistrarFbJobIntentService" />
+            <item name="com.facebook.update.uri.legacy.LegacyUpdateUriActivity" />
+            <item name="com.facebook.bugreporter.activity.suggestifier.nonwork.SuggestifierActivity" />
+            <item name="com.facebook.messaginginblue.peoplepicker.ui.activity.PeoplePickerActivity" />
+            <item name="com.facebook.appupdate.WaitForInitActivity" />
+            <item name="com.facebook.messaginginblue.profile.blockmember.ui.activity.MessagingInBlueBlockMemberActivity" />
+            <item name="androidx.work.impl.diagnostics.DiagnosticsReceiver" />
+            <item name="com.facebook.push.adm.AdmWorkGCMService" />
+            <item name="com.facebook.fxcal.urihandler.FxCalUrlHandlerBaseActivity" />
+            <item name="com.facebook.wem.shield.ChangePhotoActivity" />
+            <item name="com.facebook.katana.gdp.WebViewProxyAuth" />
+            <item name="com.facebook.push.fcm.withprovider.FirebaseInitCustomProvider" />
+            <item name="com.facebook.pages.app.composer.activity.tailoring.BizTailoringMediaAdjustmentActivity" />
+            <item name="com.facebook.timeline.newpicker.collage.NewPickerCollageActivity" />
+            <item name="com.facebook.contacts.data.FbContactsContentProvider" />
+            <item name="com.facebook.push.adm.ADMJobIntentService" />
+            <item name="com.facebook.offlineexperiment.internalsettings.OfflineExperimentPreferenceActivity" />
+            <item name="com.facebook.beam.hotspotui.client.WifiClientService" />
+            <item name="com.facebook.timeline.stagingground.StagingGroundActivity" />
+            <item name="com.facebook.fbpay.shoppay.FBShopPayCustomTabsActivity" />
+            <item name="com.facebook.katana.urimap.NeoUriActivity" />
+            <item name="com.facebook.video.heroplayer.service.HeroService" />
+            <item name="com.facebook.placessurface.PlacesSurfaceMainActivity" />
+            <item name="com.facebook.growth.addcontactpoint.AddContactpointActivity" />
+            <item name="com.facebook.search.debug.SearchAwarenessTutorialNuxDebugActivity" />
+            <item name="com.facebook.composer.minutiae.iconpicker.MinutiaeIconPickerActivity" />
+            <item name="com.facebook.inspiration.urilauncher.InspirationUriLauncherActivity" />
+            <item name="com.facebook.registration.service.NewAccountStateServiceReScheduler" />
+            <item name="com.facebook.photos.albums.video.VideoAlbumPermalinkActivity" />
+            <item name="com.facebook.pages.app.igconnect.connect.InstagramConnectActivity" />
+            <item name="com.facebook.zero.optin.activity.DialtoneOptinInterstitialActivityNew" />
+            <item name="com.facebook.photos.mediagallery.ui.widget.EditAltTextActivity" />
+            <item name="com.facebook.timeline.gemstone.conversationstarter.ConversationStarterComposerActivity" />
+            <item name="com.facebook.adspayments.activity.PaymentStatusActivity" />
+            <item name="com.facebook.timeline.camera.ProfileCameraActivity" />
+            <item name="com.facebook.navigation.tabbar.ui.tabcustomization.TabBarBadgeSettingsActivity" />
+            <item name="com.facebook.timeline.gemstone.edit.profile.questions.QuestionPickerActivity" />
+            <item name="com.facebook.payments.p2p.p2pinblue.p2pflows.transfer_and_requests.P2PPaymentPickerActivity" />
+            <item name="com.facebook.payments.transactionhub.transactiondetails.HubTransactionDetailActivity" />
+            <item name="com.facebook.local.recommendations.invitefriends.RecommendationsInviteFriendsActivity" />
+            <item name="com.facebook.timeline.header.intro.favphotos.edit.TimelineEditFavPhotosActivity" />
+            <item name="com.facebook.katana.ProxyAuth" />
+            <item name="com.facebook.clientsignals.internalsettings.fb.FbClientSignalsActivity" />
+            <item name="com.facebook.local.recommendations.composer.RecommendationsComposerLauncherActivity" />
+            <item name="com.facebook.oxygen.preloads.integration.appupdates.fb4a.AppUpdateSettingsActivity" />
+            <item name="com.facebook.quicksilver.webviewservice.QuicksilverShareNTOverlayActivity" />
+            <item name="com.facebook.timeline.gemstone.community.setupinterstitial.GemstoneSetUpCommunitiesInterstitialActivity" />
+            <item name="com.facebook.browser.lite.BrowserLiteInMainProcessIntentService" />
+            <item name="com.facebook.timeline.newpicker.featured.FeaturedMediaSelectionActivity" />
+            <item name="com.facebook.timeline.gemstone.community.GemstoneCommunitiesActivity" />
+            <item name="com.facebook.contacts.service.ContactLocaleChangeService" />
+            <item name="com.facebook.events.create.EventEditFlowLauncherActivity" />
+            <item name="com.facebook.katana.platform.FacebookAuthenticationService" />
+            <item name="com.facebook.pages.app.composer.activity.videocreation.views.BizComposerVideoPreviewActivity" />
+            <item name="com.facebook.tagging.product.ProductTagSelectorActivity" />
+            <item name="com.facebook.feed.platformads.AppInstallReceiver" />
+            <item name="com.facebook.timeline.gemstone.community.GemstoneSharedInterestsActivity" />
+            <item name="com.facebook.timeline.newpicker.fragments.NewPickerActivity" />
+            <item name="com.facebook.pages.app.composer.launch.BizComposerNewLauncherActivity" />
+            <item name="com.facebook.pages.app.stories.activity.BizStoryActivity" />
+            <item name="com.facebook.zero.internal.ZeroGatekeepersDebugActivity" />
+            <item name="com.facebook.fos.headers.transparency.HeaderTransparencyInterstitialActivity" />
+            <item name="com.facebook.backgroundlocation.reporting.periodic.PeriodicSignalCollectorJobService" />
+            <item name="com.facebook.backgroundlocation.process.BackgroundLocationGatheringServiceReceiver" />
+            <item name="com.facebook.account.login.notification.LoginNotificationService" />
+            <item name="com.facebook.appcomponentmanager.AppComponentManagerService" />
+            <item name="com.facebook.confirmation.activity.PhoneNumberAcquisitionActivity" />
+            <item name="com.facebook.quicksilver.webviewservice.QuicksilverMatchOverlayActivity" />
+            <item name="com.facebook.pages.common.storypermalink.PageVoiceStoryPermalinkActivity" />
+            <item name="com.facebook.composer.localalert.picker.LocalAlertSetLocationActivity" />
+            <item name="com.facebook.backgroundlocation.reporting.BackgroundLocationReportingDeviceSettingsBroadcastReceiver" />
+            <item name="com.facebook.zero.specialpricing.VideoDataSaverNuxActivity" />
+            <item name="com.facebook.zero.optin.activity.ZeroFlexOptinInterstitialRedesignActivity" />
+            <item name="com.facebook.messaging.threadview.iconpicker.ThreadIconPickerActivity" />
+            <item name="com.facebook.placecuration.guidedflow.GuidedFlowNotificationService" />
+            <item name="com.facebook.battery.monitor.ContinuousBatteryMonitorService$BroadcastReceiver" />
+            <item name="com.facebook.backgroundlocation.reporting.BackgroundLocationReportingGcmUploadTaskService" />
+            <item name="com.facebook.push.registration.FacebookPushServerRegistrarLollipopService" />
+            <item name="com.facebook.whatsapp.pageswhatsappsmblinking.WhatsAppSMBPagesLinkingActivity" />
+            <item name="com.facebook.install.InstallLiteSmartActivity" />
+            <item name="com.google.android.gms.analytics.AnalyticsJobService" />
+            <item name="com.facebook.adspayments.activity.BrazilianTaxIdActivity" />
+            <item name="com.facebook.notifications.tray.service.SystemTrayLogService" />
+            <item name="com.facebook.common.dextricks.DexOptimizationJobService" />
+            <item name="com.facebook.pages.app.bizposts.ufi.ui.BusinessContentFeedbackListActivity" />
+            <item name="com.facebook.facecast.livingroom.deeplink.LivingRoomInternalDeeplinkActivity" />
+            <item name="com.facebook.video.channelfeed.activity.ChannelFeedActivity" />
+            <item name="com.facebook.composer.events.sprouts.creating.EventsCreationAndSelectionActivity" />
+            <item name="com.facebook.whatsapp.pagesverification.PagesWhatsAppVerificationActivity" />
+            <item name="com.facebook.timeline.actionbar.ProfileDynamicActionBarOverflowActivity" />
+            <item name="com.facebook.qrcode.QRCodeActivity" />
+            <item name="com.facebook.katana.internsettingsactivity.InternSettingsActivity" />
+            <item name="com.facebook.nativetemplates.fb.action.inapppurchasepurchaseproduct.NTInAppPurchaseActivity" />
+            <item name="com.facebook.browser.lite.debug.debugger.BrowserLiteDebuggerSettingsActivity" />
+            <item name="com.facebook.fbpay.w3c.views.PaymentMethodsActivity" />
+            <item name="com.facebook.local.pagerecommendations.composer.activity.PageRecommendationsComposerChainingActivity" />
+            <item name="com.facebook.adinterfaces.ui.selector.TargetingSelectorActivity" />
+            <item name="com.facebook.instantshopping.InstantShoppingRichDocumentActivity" />
+            <item name="com.facebook.pages.common.adminappeal.PageAdminAppealActivity" />
+            <item name="com.facebook.katana.RemoveRawContactsService" />
+            <item name="com.facebook.rapidfeedback.debug.RapidFeedbackPreferencesActivity" />
+            <item name="com.facebook.notifications.tray.testlayouts.PushLayoutsTestActivity" />
+            <item name="com.facebook.fbreact.fragment.TransparentReactActivity" />
+            <item name="com.google.android.gms.analytics.AnalyticsReceiver" />
+            <item name="com.facebook.registration.notification.RegistrationNotificationServiceReceiver" />
+            <item name="com.facebook.nativetemplates.fb.action.securitykeyauthenticateaction.FBSecurityKeyAuthenticateActivity" />
+            <item name="com.facebook.graphql.executor.offlinemutations.OfflineMutationsRetryGCMTaskService" />
+            <item name="com.facebook.registration.activity.AccountRegistrationActivity" />
+            <item name="com.facebook.timeline.gemstone.util.survey.CandidatePerceptionSurveyActivity" />
+            <item name="com.google.firebase.messaging.FirebaseMessagingService" />
+            <item name="com.facebook.games.gaming_services.deeplink.GamingServicesDeeplinkActivity" />
+            <item name="com.facebook.messaginginblue.profile.memberlist.ui.activity.MemberListActivity" />
+            <item name="com.facebook.location.activity.collection.ActivityRecognitionReceiver" />
+            <item name="com.facebook.platform.common.service.PlatformService" />
+            <item name="com.facebook.analytics.appstatelogger.AppStateIntentService" />
+            <item name="com.facebook.games.bookmark.InstantGamesHubActivity" />
+            <item name="com.facebook.installnotifier.InstallNotifierReceiver" />
+            <item name="com.facebook.analytics.reporters.AppStateFADFeedbackActivity" />
+            <item name="com.facebook.zero.optin.activity.LightswitchOptinInterstitialActivity" />
+            <item name="com.facebook.pages.common.photos.PagesCreateAlbumFlowActivity" />
+            <item name="com.facebook.runtimepermissions.RuntimePermissionsInternalActivity" />
+            <item name="com.facebook.smartcapture.view.SelfieInstructionsActivity" />
+            <item name="com.facebook.socal.lists.ui.create.SocalListCreationActivity" />
+            <item name="com.facebook.appcomponentmanager.testreceivers.AppComponentManagerTestingReceiver" />
+            <item name="com.google.android.gms.auth.api.signin.RevocationBoundService" />
+            <item name="com.facebook.instantshopping.rapidfeedback.InstantShoppingRapidFeedbackActivity" />
+            <item name="com.facebook.notifications.aloha.pairing.PairingActivity" />
+            <item name="com.facebook.photos.upload.dialog.UploadDialogsActivity" />
+            <item name="com.facebook.placecuration.guidedflow.GuidedFlowActivity" />
+            <item name="com.facebook.zero.iptest.ZeroIPTestBroadcastReceiver" />
+            <item name="com.facebook.conditionalworker.GooglePlayConditionalWorkerService" />
+            <item name="com.google.android.gms.analytics.AnalyticsService" />
+            <item name="com.facebook.pages.app.composer.activity.settings.schedule.BizPostPublishOptionsActivity" />
+            <item name="com.facebook.inspiration.composer.InspirationComposerMessengerUriLauncherActivity" />
+            <item name="com.facebook.timeline.funfacts.FunFactTabPagerActivity" />
+            <item name="com.facebook.smartcapture.view.SelfieOnboardingActivity" />
+            <item name="com.facebook.katana.activity.media.ViewVideoActivity" />
+            <item name="com.facebook.places.create.PlaceCreationDupActivity" />
+            <item name="com.facebook.katana.activity.react.TransparentImmersiveReactActivity" />
+            <item name="com.facebook.platform.common.activity.PlatformWrapperActivity" />
+            <item name="com.facebook.wem.privatesharing.ui.WemPrivateSharingHomeActivity" />
+            <item name="com.facebook.mobileconfig.init.MobileConfigEnableReceiver" />
+            <item name="com.facebook.adspayments.activity.BrazilianAddressActivity" />
+            <item name="com.facebook.local.recommendations.xposting.RecommendationsXPostingActivity" />
+            <item name="com.facebook.local.recommendations.dashboardmap.RecommendationsDashboardMapActivity" />
+            <item name="com.facebook.storelocator.StoreLocatorActivity" />
+            <item name="com.facebook.common.errorreporting.memory.MemoryDumpUploadService" />
+            <item name="com.facebook.music.webauth.SpotifyAuthRedirectActivity" />
+            <item name="com.facebook.lite.webviewrtc.RTCService" />
+            <item name="com.facebook.pages.app.stories.launch.BizStoryLauncherActivity" />
+            <item name="com.facebook.messaginginblue.notification.activity.MessagingInBlueNotificationActivity" />
+            <item name="com.facebook.supportinbox.ui.FBSupportInboxPlaceHolderActivity" />
+            <item name="com.facebook.analytics.appstatelogger.AppStateBroadcastReceiver" />
+            <item name="com.facebook.timeline.coverphoto.activity.CoverPhotoRepositionActivity" />
+            <item name="com.facebook.pages.common.diverse_owned_business.DiverseOwnedBusinessToastActivity" />
+            <item name="com.facebook.confirmation.activity.SimpleConfirmAccountActivity" />
+            <item name="com.facebook.interstitial.debug.InterstitialDebugActivity" />
+            <item name="com.facebook.nearby.fallback.NearbyPlacesFallbackActivity" />
+            <item name="com.facebook.audience.stories.highlights.settings.StoriesHighlightsSettingsActivity" />
+            <item name="com.facebook.feedplugins.researchpoll.activity.ResearchPollActivity" />
+            <item name="com.facebook.cameracore.mediapipeline.asyncscripting.AsyncScriptingService" />
+            <item name="com.facebook.nativetemplates.fb.shell.integrationchecklist.NativeTemplatesIntegrationChecklistActivity" />
+            <item name="com.facebook.push.adm.AdmWorkLollipopService" />
+            <item name="com.facebook.stonehenge.browser.StonehengeBrowserActivity" />
+            <item name="com.facebook.appcomponentmanager.testreceivers.SecondEnableStageTestReceiver" />
+            <item name="com.facebook.katana.autologin.AutoLoginInterstitialActivity" />
+            <item name="com.facebook.bugreporter.scheduler.LollipopBugReportService" />
+            <item name="com.facebook.audience.stories.igimporting.IgStoriesImportingActivity" />
+            <item name="com.facebook.gdp.ProxyAuth" />
+            <item name="com.facebook.commerce.productdetails.intent.ProductDetailsActivity" />
+            <item name="com.facebook.quicksilver.webviewservice.QuicksilverWebviewService" />
+            <item name="com.facebook.push.fbnslite.FbnsLitePushNotificationHandler" />
+            <item name="com.facebook.appupdate.DownloadCompleteReceiver" />
+            <item name="com.facebook.oxygen.preloads.integration.appupdates.fb4a.ThirdPartyAppUpdateSettingsActivity" />
+            <item name="com.facebook.rti.common.sharedprefs.SharedPreferencesContentProvider" />
+            <item name="com.facebook.groups.recommendations.RecommendationsGroupTabMapActivity" />
+            <item name="com.facebook.actorappealexperiences.secondlevelappeal.ui.SecondLevelAppealActivity" />
+            <item name="com.facebook.quicksilver.shortcut.QuicksilverShortcutExternalActivity" />
+            <item name="com.facebook.local.recommendations.dashboard.RecommendationsDashboardActivity" />
+            <item name="com.facebook.appinvites.sdk.AppInviteDialogActivity" />
+            <item name="com.facebook.katana.dbl.activity.FirstBootActivity" />
+            <item name="androidx.media.session.MediaButtonReceiver" />
+            <item name="com.facebook.loco.onboarding.LocoOnboardingActivity" />
+            <item name="com.facebook.zero.internal.ZeroInternSettingsActivity" />
+            <item name="com.facebook.quicksilver.QuicksilverShortcutExternalActivity" />
+            <item name="com.facebook.local.recommendations.dashboardmap.RecommendationsPostFilterActivity" />
+            <item name="com.facebook.adspayments.analytics.ExperimentExposeService" />
+            <item name="com.facebook.customsettings.SecuritySettingsActivity" />
+            <item name="com.facebook.common.dextricks.DexOptimization$Service" />
+            <item name="com.facebook.zero.zerobalance.ui.AutoflexSettingsActivity" />
+            <item name="com.facebook.timeline.status.statusedit.StatusEditActivity" />
+            <item name="com.facebook.loco.kindness.LocoNeighborhoodRulesActivity" />
+            <item name="com.facebook.instantarticles.InstantArticlesCarouselActivity" />
+            <item name="com.facebook.audience.stories.igimporting.settingactivity.IgStoriesImportingTurnOnActivity" />
+            <item name="com.facebook.zero.optin.activity.ZeroFlexOptinReconsiderActivity" />
+            <item name="com.facebook.quickpromotion.debug.QuickPromotionTriggersActivity" />
+            <item name="com.facebook.fbreact.autoupdater.fbprefs.ReactOTATestInternalSettingsActivity" />
+            <item name="com.facebook.wem.ui.PPSSTitlebarActivity" />
+            <item name="com.facebook.groupcommerce.deep_link.ForSalePostSellComposerActivity" />
+            <item name="com.facebook.video.commercialbreak.components.noninterruptive.AdBreakWatchAndMore" />
+            <item name="com.facebook.loco.tourscreens.LocoTourScreenActivity" />
+            <item name="com.facebook.messaging.prefs.notifications.NotificationPrefsSyncService" />
+            <item name="com.facebook.locationcomponents.locationpicker.LocationPickerActivity" />
+            <item name="com.facebook.screenshot.bugreporter.BugReporterFb4aScreenshotActivity" />
+            <item name="com.facebook.watson.WatsonBroadcastReceiver" />
+            <item name="com.facebook.payments.chromecustomtabs.CustomTabMainActivity" />
+            <item name="com.facebook.confirmation.service.AddPhoneNumberService" />
+            <item name="com.facebook.timeline.funfacts.container.FunFactHomeTabPagerActivity" />
+            <item name="com.facebook.browser.liteclient.report.BrowserRapidReportingHostActivity" />
+            <item name="com.facebook.pages.app.composer.activity.mediapicker.BizMediaPickerActivity" />
+            <item name="com.facebook.katana.provider.CacheProvider" />
+            <item name="com.facebook.msys.mci.JobScheduler$JobSchedulerService" />
+            <item name="com.facebook.pages.common.locations.PageLocationsViewActivity" />
+            <item name="com.facebook.securedaction.SecuredActionChallengeActivity" />
+            <item name="com.facebook.places.create.PlaceCreationCategoryPickerActivity" />
+            <item name="com.facebook.places.create.privacypicker.PrivacyPickerActivity" />
+            <item name="com.facebook.payments.checkout.AppSwitchInterstitialActivity" />
+            <item name="com.facebook.local.pagerecommendations.composer.activity.PageRecommendationsComposerActivity" />
+            <item name="com.facebook.dialtone.activity.DialtoneIntentInterstitialActivity" />
+            <item name="com.facebook.composer.events.sprouts.attending.EventSelectionForAttendingActivity" />
+            <item name="com.facebook.push.registration.PushNegativeFeedbackGCMService" />
+            <item name="com.facebook.games.bookmark.GamesActivity" />
+            <item name="com.facebook.addresstypeahead.AddressTypeAheadActivity" />
+            <item name="com.facebook.composer.groupschats.navigation.GroupsChatsTemporaryChatsCreationActivity" />
+            <item name="com.facebook.zero.optin.activity.LightswitchOptinInterstitialActivityNew" />
+            <item name="com.facebook.photos.simplepicker.launcher.SimplePickerLauncherActivity" />
+            <item name="com.facebook.fbreact.debugoverlay.FbReactDebugOverlaySettingsActivity" />
+            <item name="com.facebook.katana.GoogleNowIntentHandler" />
+            <item name="com.facebook.covidbusinesspost.activities.CovidBusinessPostActivity" />
+            <item name="com.facebook.timeline.stagingground.ProfilePictureShareActivity" />
+            <item name="com.facebook.pages.productboundary.ui.PagesProductBoundaryNavigationConfirmationActivity" />
+            <item name="com.facebook.zero.header.ZeroHeaderTransparencyInterstitialActivity" />
+            <item name="com.facebook.businessintegrity.waist.BIWaistActivity" />
+            <item name="com.facebook.transliteration.ui.activity.TransliterationActivity" />
+            <item name="com.facebook.video.activity.DeprecatedFullscreenVideoPlayerActivity" />
+            <item name="com.facebook.common.init.DefaultSplashScreenActivity" />
+            <item name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver" />
+            <item name="com.facebook.permanet.bootreceiver.PermaNetBootReceiver" />
+            <item name="com.facebook.account.twofac.protocol.LoginApprovalNotificationService" />
+            <item name="com.facebook.places.create.citypicker.CityPickerActivity" />
+            <item name="com.facebook.orca.notify.MessagesNotificationService" />
+            <item name="com.facebook.katana.FacebookAccountReceiver" />
+            <item name="com.facebook.pages.app.composer.activity.location.view.BizPostLocationActivity" />
+            <item name="com.facebook.places.suggestions.MarkAsDuplicatesActivity" />
+            <item name="com.facebook.timeline.communityview.ProfileCommunityViewActivity" />
+            <item name="com.facebook.growth.nux.UserAccountNUXActivity" />
+            <item name="com.facebook.zero.activity.ZeroIntentInterstitialActivity" />
+            <item name="com.facebook.compost.service.CompostNotificationService" />
+            <item name="com.facebook.api.feedcache.resync.NewsFeedCacheInvalidationGCMService" />
+            <item name="com.facebook.timeline.majorlifeevent.home.MajorLifeEventHomeActivity" />
+            <item name="com.facebook.smartcapture.view.SelfieCaptureActivity" />
+            <item name="com.facebook.pages.common.preview.ui.PagesManagerPreviewActivity" />
+            <item name="com.facebook.notifications.tray.actions.PushNotificationsActionService" />
+            <item name="com.facebook.update.uri.fb4aconfig.FB4AUpdateUriActivity" />
+            <item name="com.facebook.account.twofac.codegenerator.ui.ActivateCodeGeneratorWithCodeActivity" />
+            <item name="com.facebook.messaginginblue.threadview.ui.composer.plugin.camera.activity.MibCameraActivity" />
+            <item name="com.facebook.timeline.profilevideo.ProfileVideoShareActivity" />
+            <item name="com.facebook.analytics2.logger.AlarmBasedUploadService" />
+            <item name="com.facebook.katana.dbl.activity.PasswordErrorActivity" />
+            <item name="com.facebook.aymt.internalsettings.LookUpTipsActivity" />
+            <item name="com.facebook.multiusermqtt.MultiuserMqttService" />
+            <item name="com.facebook.errorreporting.lacrima.detector.broadcast.SecureShutdownBootBroadcastReceiver" />
+            <item name="com.facebook.woodhenge.CSWoodhengeFullScreenActivity" />
+            <item name="com.facebook.bugreporter.scheduler.GCMBugReportService" />
+            <item name="com.facebook.facecast.livingroom.deeplink.LivingRoomPublicDeeplinkActivity" />
+            <item name="com.facebook.privacy.edit.EditStoryPrivacyActivity" />
+            <item name="com.facebook.adscomposer.AdsComposerActivity" />
+            <item name="com.facebook.timeline.birthday.birthdaycard.BirthdayCardActivity" />
+            <item name="com.facebook.katana.LoginActivity" />
+            <item name="com.facebook.inspiration.shortcut.cameralauncher.InspirationCameraExternalLaunchActivity" />
+            <item name="com.facebook.fansubmission.deeplink.FanSubmissionRequestDeeplinkActivity" />
+            <item name="com.facebook.shops.launcher.FBShopsLaunchActivity" />
+            <item name="com.facebook.payments.webview.PaymentsWebViewActivity" />
+            <item name="com.facebook.smartcapture.view.SelfieReviewActivity" />
+            <item name="com.facebook.composer.groups.selector.GroupSelectorActivity" />
+            <item name="com.facebook.messaging.sharing.localshare.ShareAsMessageComposerActivity" />
+            <item name="com.facebook.events.tickets.modal.EventSelectTicketsSeatMapActivity" />
+            <item name="com.facebook.push.registration.RegistrarHelperService" />
+            <item name="com.facebook.video.watch.settings.DataSaverActivity" />
+            <item name="com.facebook.survey.activities.SurveyDialogActivity" />
+            <item name="com.facebook.papaya.fb.fb4a.PapayaFb4aService" />
+            <item name="com.facebook.confirmation.service.AutoSmsConfirmService" />
+            <item name="com.facebook.growth.nux.NuxProfilePhotoWrapperActivity" />
+            <item name="com.facebook.messaging.threadmute.ThreadNotificationMuteDialogActivity" />
+            <item name="com.facebook.authenticity.idv.IdentityVerificationActivity" />
+            <item name="com.facebook.orca.threadview.ThreadViewActivity" />
+            <item name="com.facebook.privacy.educator.AudienceEducatorLearnMoreActivity" />
+            <item name="com.facebook.katana.activity.photos.PhotosTabActivity" />
+            <item name="com.facebook.zero.optin.activity.AutoFlexNewResOptinActivity" />
+            <item name="com.facebook.video.watchandgo.service.WatchAndGoService" />
+            <item name="com.facebook.katana.ContactUriHandler" />
+            <item name="com.facebook.fbshorts.profile.viewer.activity.FbShortsProfileViewerActivity" />
+            <item name="com.facebook.adexpress.AdExpressActivity" />
+            <item name="com.facebook.neko.playables.NekoPlayableAdActivity" />
+            <item name="com.facebook.smartcapture.view.SelfieCapturePermissionsActivity" />
+            <item name="com.facebook.account.switcher.shortcuts.AccountSwitcherShortcutActivity" />
+            <item name="com.facebook.beam.sender.BeamReceiverActivity" />
+            <item name="com.facebook.katana.activity.react.ImmersiveReactActivity" />
+            <item name="com.facebook.jade.JadeUriHandlerActivity" />
+            <item name="com.facebook.friending.jewel.FriendRequestsPrivacySettingService" />
+            <item name="com.facebook.orca.notify.MessagesNotificationBroadcastReceiver" />
+            <item name="com.facebook.papaya.fb.client.FBPapayaJobService" />
+            <item name="com.facebook.notes.NoteActivity" />
+            <item name="com.facebook.zero.optin.activity.NativeTermsAndConditionsActivity" />
+            <item name="com.facebook.ixttriggers.ixtenrolmenttrigger.IXTEnrollmentActivity" />
+            <item name="com.facebook.adpreview.activity.AdPreviewActivity" />
+            <item name="com.facebook.events.permalink.cohost.EventCohostRequestListActivity" />
+            <item name="com.facebook.fbservice.service.BlueService" />
+            <item name="com.facebook.stonehenge.accountlinking.StonehengeAccountLinkingUrlHandlerActivity" />
+            <item name="com.facebook.events.create.v2.EventCreationActivity" />
+            <item name="com.facebook.payments.checkout.CheckoutActivity" />
+            <item name="com.facebook.stories.viewer.activity.StoryViewerActivity" />
+            <item name="com.facebook.glc.ScheduledWifiMonitorService" />
+            <item name="com.facebook.businessintegrity.gdpr.consents.GDPRConsentsActivity" />
+            <item name="com.facebook.composer.publish.internal.ComposerPublishService" />
+            <item name="com.facebook.fxcal.helper.FxCalUrlHandlerForFacebookActivity" />
+            <item name="com.facebook.timeline.contextualprofiles.platform.editactivity.IMContextualProfileEditJobLocationActivity" />
+            <item name="com.facebook.topfans.TopFansFollowerSettingActivity" />
+            <item name="com.facebook.confirmation.util.VoiceCallListenerExpiryReceiver" />
+            <item name="com.facebook.conditionalworker.ConditionalWorkerServiceReceiver" />
+            <item name="com.facebook.sosource.bsod.BSODActivity" />
+            <item name="com.facebook.growth.nux.CILegalNuxActivity" />
+            <item name="com.facebook.timeline.majorlifeevent.creation.datepicker.DatePickerActivity" />
+            <item name="com.facebook.fbreact.messagingcommerce.messagingcommerceidverification.MessagingCommerceIDVerificationCameraActivity" />
+            <item name="com.facebook.katana.activity.nearby.SubcategorySelectionActivity" />
+            <item name="com.facebook.resources.impl.WaitingForStringsActivity" />
+            <item name="com.facebook.chatroom.ChatroomEditComposerAttachmentActivity" />
+            <item name="com.facebook.messaginginblue.reachability.ui.activity.ReachabilitySettingsActivity" />
+            <item name="com.facebook.katana.app.FacebookSplashScreenActivity" />
+            <item name="com.facebook.ixbrowser.InstantExperiencesBrowserUriHandlerActivity" />
+            <item name="com.facebook.timeline.coverstockpatterns.artwork.CoverArtworkActivity" />
+            <item name="com.facebook.composer.localalert.picker.LocalAlertDurationPickerActivity" />
+            <item name="com.facebook.rapidfeedback.RapidFeedbackLCAUDialogActivity" />
+            <item name="com.facebook.messaginginblue.inbox.activities.InboxActivity" />
+            <item name="com.facebook.mqttlite.MqttService" />
+            <item name="com.facebook.appupdate.DownloadNotificationClickReceiver" />
+            <item name="com.facebook.videolite.api.VideoUploadForegroundService" />
+            <item name="com.facebook.video.tv.mediasession.TVCastingMediaSessionService" />
+            <item name="com.facebook.photos.mediagallery.ui.MediaGalleryActivity" />
+            <item name="com.facebook.appcomponentmanager.fb.FbAppComponentReceiver" />
+            <item name="com.facebook.katana.platform.FacebookAuthenticationActivity" />
+            <item name="com.facebook.timeline.gemstone.home.GemstoneHomeActivity" />
+            <item name="com.facebook.push.fbpushdata.common.FbPushDataHandlerService" />
+            <item name="com.facebook.places.common.SelectPageTopicActivity" />
+            <item name="com.facebook.account.twofac.codegenerator.ui.CodeGeneratorActivity" />
+            <item name="com.facebook.clientsignals.internalsettings.common.ClientSignalsActivity" />
+            <item name="androidx.work.impl.background.systemjob.SystemJobService" />
+            <item name="com.facebook.redrawable.ReDrawableDebugActivity" />
+            <item name="com.facebook.payments.settings.PaymentsSettingActivity" />
+            <item name="com.facebook.backgroundlocation.reporting.BackgroundLocationReportingBroadcastReceiver" />
+            <item name="com.facebook.nearbyfriends.waves.NearbyFriendsWaveActivity" />
+            <item name="com.facebook.gdp.LightWeightProxyAuthActivity" />
+            <item name="com.facebook.treehenge.TreehengeUriHandlerActivity" />
+            <item name="com.facebook.zero.internal.ZeroE2ETestActivity" />
+            <item name="com.facebook.katana.gdp.ProxyAuthDialog" />
+            <item name="com.facebook.adspayments.activity.AddPaymentCardActivity" />
+            <item name="com.facebook.messaginginblue.interop.ui.activity.XacLearnMoreActivity" />
+            <item name="com.facebook.storygallerysurvey.activity.StoryGallerySurveyWithStoryActivity" />
+            <item name="com.facebook.timeline.gemstone.messaging.thread.video.activity.Fb4aRTCActivity" />
+            <item name="com.facebook.timeline.majorlifeevent.creation.category.MajorLifeEventSubCategorySelectionActivity" />
+            <item name="com.facebook.screencast.ui.ScreencastActivity" />
+            <item name="com.facebook.platform.PlatformCanonicalProfileIdActivity" />
+            <item name="com.facebook.timeline.gemstone.community.setup.GemstoneSetUpCommunitiesActivity" />
+            <item name="com.facebook.surveyplatformdev.SurveyPlatformPreferenceActivity" />
+            <item name="com.facebook.wem.shield.PreviewActivity" />
+            <item name="com.facebook.device_id.debug.FamilyDeviceIdPreferencesActivity" />
+        </enabled-components>
+        <disabled-components>
+            <item name="com.facebook.katana.urimap.LinkSharingNativeComposerAliasActivity" />
+            <item name="com.facebook.inspiration.shortcut.shareintent.InpirationCameraShareDefaultAliasNewIcon" />
+            <item name="com.facebook.fbpay.w3c.ipc.IsReadyToPayServiceImpl" />
+            <item name="com.facebook.wearlistener.DataLayerListenerService" />
+            <item name="com.facebook.photos.upload.receiver.ConnectivityChangeReceiver" />
+            <item name="com.facebook.fbpay.w3c.views.PaymentActivity" />
+            <item name="com.facebook.timeline.stagingground.WorkProfilePictureShareActivityAlias" />
+            <item name="com.facebook.fbpay.w3c.ipc.FBPaymentServiceImpl" />
+        </disabled-components>
+    </pkg>
+    <pkg name="com.amazon.avod.thirdpartyclient" ceDataInode="335981" domainVerificationStatus="2" app-link-generation="12">
+        <enabled-components>
+            <item name="com.amazon.identity.auth.device.bootstrapSSO.BootstrapSSOService" />
+            <item name="com.amazon.identity.auth.device.storage.LambortishClock$ChangeTimestampsBroadcastReceiver" />
+        </enabled-components>
+        <disabled-components>
+            <item name="com.amazon.identity.auth.accounts.SessionUserChangedToAccountForPackageChangedAdpater" />
+        </disabled-components>
+    </pkg>
+    <pkg name="com.mediatek.entitlement.fcm" ceDataInode="335984" enabled="2" enabledCaller="com.mediatek.carrierexpress" />
+    <pkg name="com.android.providers.partnerbookmarks" ceDataInode="335987" />
+    <pkg name="com.mediatek.op07.browser" ceDataInode="335990" enabled="2" enabledCaller="com.mediatek.carrierexpress" />
+    <pkg name="com.mediatek.op18.omacp" ceDataInode="335993" enabled="2" enabledCaller="com.mediatek.carrierexpress" />
+    <pkg name="com.mediatek.simrecovery" ceDataInode="335996" />
+    <pkg name="com.trustonic.teeservice" ceDataInode="335999" />
+    <pkg name="com.android.wallpaper.livepicker" ceDataInode="336002" />
+    <pkg name="com.mediatek.op07.systemui" ceDataInode="336005" enabled="2" enabledCaller="com.mediatek.carrierexpress" />
+    <pkg name="com.facebook.system" ceDataInode="336008" enabled="1">
+        <disabled-components>
+            <item name="com.facebook.oxygen.installer.ui.AppDetailsActivity" />
+            <item name="com.facebook.oxygen.installer.crashhandler.CrashRedirectActivity" />
+        </disabled-components>
+    </pkg>
+    <pkg name="com.mediatek.contacts.plugin" ceDataInode="336011" />
+    <pkg name="com.android.theme.icon.squircle" ceDataInode="336014" />
+    <pkg name="com.google.android.networkstack.permissionconfig" ceDataInode="336017" />
+    <pkg name="com.android.storagemanager" ceDataInode="336020" />
+    <pkg name="com.android.bookmarkprovider" ceDataInode="336023" />
+    <pkg name="com.android.settings" ceDataInode="336026">
+        <enabled-components>
+            <item name="com.android.settings.Settings$ConnectedDeviceDashboardActivity" />
+            <item name="com.android.settings.Settings$PowerUsageSummaryActivity" />
+            <item name="com.android.settings.Settings$WifiDisplaySettingsActivity" />
+            <item name="com.android.settings.Settings$BluetoothSettingsActivity" />
+            <item name="com.android.settings.Settings$WifiSettingsActivity" />
+            <item name="com.android.settings.WebViewImplementation" />
+            <item name="com.android.settings.Settings$UserSettingsActivity" />
+            <item name="com.android.settings.Settings$DataUsageSummaryActivity" />
+        </enabled-components>
+        <disabled-components>
+            <item name="com.android.settings.CryptKeeper" />
+            <item name="com.android.settings.Settings$DevelopmentSettingsDashboardActivity" />
+        </disabled-components>
+    </pkg>
+    <pkg name="com.google.android.networkstack.overlay" ceDataInode="336029" />
+    <pkg name="com.android.theme.icon_pack.filled.launcher" ceDataInode="336032" />
+    <pkg name="com.google.android.projection.gearhead" ceDataInode="336035">
+        <disabled-components>
+            <item name="com.google.android.gearhead.vanagon.VnLaunchPadActivity" />
+        </disabled-components>
+    </pkg>
+    <pkg name="com.mediatek.lbs.em2.ui" ceDataInode="336038" />
+    <pkg name="com.android.cts.ctsshim" ceDataInode="336041" />
+    <pkg name="com.google.android.overlay.modules.modulemetadata.forframework" ceDataInode="336044" />
+    <pkg name="com.ape.camfaccalibration" ceDataInode="336047" />
+    <pkg name="com.mediatek.op08.dialer" ceDataInode="336050" />
+    <pkg name="com.android.theme.icon_pack.circular.launcher" ceDataInode="336053" />
+    <pkg name="com.google.android.trichromelibrary_432415233" ceDataInode="344362" stopped="true" nl="true" install-reason="4" />
+    <pkg name="com.mediatek.ims.pco" ceDataInode="336056" enabled="2" enabledCaller="com.mediatek.carrierexpress" />
+    <pkg name="com.android.vpndialogs" ceDataInode="336059" />
+    <pkg name="com.mediatek.op18.telecom" ceDataInode="336062" enabled="2" enabledCaller="com.mediatek.carrierexpress" />
+    <pkg name="com.android.phone" ceDataInode="336065" />
+    <pkg name="com.android.shell" ceDataInode="336068" />
+    <pkg name="com.android.theme.icon_pack.filled.themepicker" ceDataInode="336071" />
+    <pkg name="com.android.wallpaperbackup" ceDataInode="336074" />
+    <pkg name="com.android.providers.blockednumber" ceDataInode="336077" />
+    <pkg name="com.android.providers.userdictionary" ceDataInode="336080" />
+    <pkg name="com.android.emergency" ceDataInode="336083" />
+    <pkg name="com.ape.mtbf" ceDataInode="336086" />
+    <pkg name="com.tinno.productInfo" ceDataInode="336089" />
+    <pkg name="com.sprint.ms.smf.services" ceDataInode="336092">
+        <enabled-components>
+            <item name="com.sprint.ms.smf.activities.OAuthAuthorize" />
+            <item name="com.sprint.ms.smf.activities.CallingPlusQuickStartActivity" />
+            <item name="com.sprint.ms.smf.activities.PermissionsActivity" />
+            <item name="com.sprint.ms.smf.activities.VolteHelpActivity" />
+            <item name="com.sprint.ms.smf.activities.VowifiEnablement" />
+            <item name="androidx.work.impl.background.systemalarm.RescheduleReceiver" />
+            <item name="androidx.work.impl.background.systemjob.SystemJobService" />
+            <item name="com.sprint.ms.smf.activities.CallingPlusHelpActivity" />
+        </enabled-components>
+    </pkg>
+    <pkg name="com.android.hotspot2.osulogin" ceDataInode="336095" />
+    <pkg name="com.mediatek.entitlement" ceDataInode="336098" enabled="2" enabledCaller="com.mediatek.carrierexpress" />
+    <pkg name="com.google.android.gms.location.history" ceDataInode="336101" />
+    <pkg name="com.android.internal.systemui.navbar.gestural" ceDataInode="336104" />
+    <pkg name="com.android.location.fused" ceDataInode="336107" />
+    <pkg name="com.android.theme.color.orchid" ceDataInode="336110" />
+    <pkg name="com.android.systemui" ceDataInode="336113">
+        <disabled-components>
+            <item name="com.android.systemui.tuner.TunerActivity" />
+        </disabled-components>
+    </pkg>
+    <pkg name="com.google.android.apps.youtube.music" ceDataInode="336116" domainVerificationStatus="2" app-link-generation="9">
+        <enabled-components>
+            <item name="androidx.work.impl.background.systemalarm.RescheduleReceiver" />
+            <item name="androidx.work.impl.background.systemjob.SystemJobService" />
+        </enabled-components>
+    </pkg>
+    <pkg name="com.mediatek.op08.telecom" ceDataInode="336119" />
+    <pkg name="com.android.theme.color.purple" ceDataInode="336122" />
+    <pkg name="com.android.bluetoothmidiservice" ceDataInode="336125" />
+    <pkg name="com.facebook.appmanager" ceDataInode="336128" enabled="1">
+        <enabled-components>
+            <item name="com.facebook.oxygen.appmanager.firstparty.tos.ShouldShowTos" />
+            <item name="com.facebook.oxygen.appmanager.firstparty.tos.ShouldAcceptTos" />
+        </enabled-components>
+        <disabled-components>
+            <item name="com.facebook.oxygen.appmanager.ui.about.AboutActivity" />
+            <item name="com.facebook.oxygen.appmanager.webinstall.WebInstallActivity" />
+            <item name="com.facebook.oxygen.appmanager.firstparty.tos.ShouldShowExplicitTos" />
+            <item name="com.facebook.oxygen.appmanager.webinstall.WebInstallAppLinkActivity" />
+            <item name="com.facebook.oxygen.appmanager.webinstall.WebInstallAppLinkActivityV2" />
+            <item name="com.facebook.oxygen.appmanager.ui.msitetos.MSiteTosHandlerActivity" />
+            <item name="com.facebook.oxygen.appmanager.nekodirect.NekoDirectProvider" />
+            <item name="com.facebook.oxygen.appmanager.modularity.ModularityApiProvider" />
+            <item name="com.facebook.oxygen.appmanager.webinstall.WebInstallDeepLinkActivity" />
+        </disabled-components>
+    </pkg>
+    <pkg name="com.android.traceur" ceDataInode="336131">
+        <disabled-components>
+            <item name="com.android.traceur.StorageProvider" />
+            <item name="com.android.traceur.QsService" />
+        </disabled-components>
+    </pkg>
+    <pkg name="com.google.android.cellbroadcastreceiver" ceDataInode="336134">
+        <disabled-components>
+            <item name="com.android.cellbroadcastreceiver.CellBroadcastListLauncherActivity" />
+        </disabled-components>
+    </pkg>
+    <pkg name="com.mediatek.sensorhub.ui" ceDataInode="336137" />
+    <pkg name="android.auto_generated_rro_product__" ceDataInode="336140" />
+    <pkg name="com.android.bluetooth" ceDataInode="336143" />
+    <pkg name="com.android.wallpaperpicker" ceDataInode="336146" />
+    <pkg name="com.android.providers.contacts" ceDataInode="336149" />
+    <pkg name="com.android.theme.icon.roundedrect" ceDataInode="336152" />
+    <pkg name="com.mediatek.carrierexpress" ceDataInode="336155" />
+    <pkg name="com.mediatek.op12.dialer" ceDataInode="336158" enabled="2" enabledCaller="com.mediatek.carrierexpress" />
+    <pkg name="com.android.internal.systemui.navbar.gestural_narrow_back" ceDataInode="336161" />
+    <pkg name="com.android.theme.icon_pack.rounded.settings" ceDataInode="336164" />
+    <pkg name="com.google.android.inputmethod.latin" ceDataInode="336167">
+        <disabled-components>
+            <item name="com.google.android.apps.inputmethod.libs.framework.core.LauncherActivity" />
+        </disabled-components>
+    </pkg>
+    <pkg name="android.auto_generated_rro_vendor__" ceDataInode="336170" />
+    <pkg name="com.android.theme.icon_pack.circular.android" ceDataInode="336173" />
+    <pkg name="com.google.android.apps.restore" ceDataInode="336176" />
+    <preferred-activities>
+        <item name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.apps.nbu.files/.gateway.preview.PreviewActivity" />
+            <set name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.DEFAULT" />
+                <staticType name="image/x-ms-bmp" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.apps.nbu.files/.gateway.preview.PreviewActivity" />
+            <set name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.DEFAULT" />
+                <staticType name="image/x-corelphotopaint" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.apps.nbu.files/.gateway.preview.PreviewActivity" />
+            <set name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.DEFAULT" />
+                <staticType name="image/ico" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.apps.nbu.files/.gateway.preview.PreviewActivity" />
+            <set name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.DEFAULT" />
+                <staticType name="video/mpeg" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.apps.nbu.files/.gateway.preview.PreviewActivity" />
+            <set name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.DEFAULT" />
+                <staticType name="image/x-portable-anymap" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.messaging/.ui.conversation.LaunchConversationActivity" match="200000" always="true" set="1">
+            <set name="com.google.android.apps.messaging/.ui.conversation.LaunchConversationActivity" />
+            <filter>
+                <action name="android.intent.action.SENDTO" />
+                <cat name="android.intent.category.DEFAULT" />
+                <scheme name="mms" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.apps.nbu.files/.gateway.preview.PreviewActivity" />
+            <set name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.DEFAULT" />
+                <staticType name="image/vnd.wap.wbmp" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.apps.nbu.files/.gateway.preview.PreviewActivity" />
+            <set name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.DEFAULT" />
+                <staticType name="image/png" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.apps.nbu.files/.gateway.preview.PreviewActivity" />
+            <set name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.DEFAULT" />
+                <staticType name="video/avi" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.apps.nbu.files/.gateway.preview.PreviewActivity" />
+            <set name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.DEFAULT" />
+                <staticType name="image/x-coreldraw" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.apps.nbu.files/.gateway.preview.PreviewActivity" />
+            <set name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.DEFAULT" />
+                <staticType name="image/x-adobe-dng" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.apps.nbu.files/.gateway.preview.PreviewActivity" />
+            <set name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.DEFAULT" />
+                <staticType name="image/x-panasonic-rw2" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.apps.nbu.files/.gateway.preview.PreviewActivity" />
+            <set name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.DEFAULT" />
+                <staticType name="image/ief" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.apps.nbu.files/.gateway.preview.PreviewActivity" />
+            <set name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.DEFAULT" />
+                <staticType name="image/x-portable-bitmap" />
+            </filter>
+        </item>
+        <item name="com.android.dialer/.main.impl.MainActivity" match="100000" always="true" set="1">
+            <set name="com.android.dialer/.main.impl.MainActivity" />
+            <filter>
+                <action name="android.intent.action.DIAL" />
+                <cat name="android.intent.category.DEFAULT" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.apps.nbu.files/.gateway.preview.PreviewActivity" />
+            <set name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.DEFAULT" />
+                <staticType name="image/x-icon" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.apps.nbu.files/.gateway.preview.PreviewActivity" />
+            <set name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.DEFAULT" />
+                <staticType name="image/webp" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.apps.nbu.files/.gateway.preview.PreviewActivity" />
+            <set name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.DEFAULT" />
+                <staticType name="image/x-olympus-orf" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.apps.nbu.files/.gateway.preview.PreviewActivity" />
+            <set name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.DEFAULT" />
+                <staticType name="video/3gpp2" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.apps.nbu.files/.gateway.preview.PreviewActivity" />
+            <set name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.DEFAULT" />
+                <staticType name="image/x-nikon-nef" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.apps.nbu.files/.gateway.preview.PreviewActivity" />
+            <set name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.DEFAULT" />
+                <staticType name="image/x-xpixmap" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.apps.nbu.files/.gateway.preview.PreviewActivity" />
+            <set name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.DEFAULT" />
+                <staticType name="image/x-samsung-srw" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.apps.nbu.files/.gateway.preview.PreviewActivity" />
+            <set name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.DEFAULT" />
+                <staticType name="image/svg+xml" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.apps.nbu.files/.gateway.preview.PreviewActivity" />
+            <set name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.DEFAULT" />
+                <staticType name="image/bmp" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.apps.nbu.files/.gateway.preview.PreviewActivity" />
+            <set name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.DEFAULT" />
+                <staticType name="video/mp4" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.apps.nbu.files/.gateway.preview.PreviewActivity" />
+            <set name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.DEFAULT" />
+                <staticType name="image/jpeg" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.apps.nbu.files/.gateway.preview.PreviewActivity" />
+            <set name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.DEFAULT" />
+                <staticType name="image/x-portable-graymap" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.messaging/.ui.conversation.LaunchConversationActivity" match="200000" always="true" set="1">
+            <set name="com.google.android.apps.messaging/.ui.conversation.LaunchConversationActivity" />
+            <filter>
+                <action name="android.intent.action.SENDTO" />
+                <cat name="android.intent.category.DEFAULT" />
+                <scheme name="smsto" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.apps.nbu.files/.gateway.preview.PreviewActivity" />
+            <set name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.DEFAULT" />
+                <staticType name="video/quicktime" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.apps.nbu.files/.gateway.preview.PreviewActivity" />
+            <set name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.DEFAULT" />
+                <staticType name="image/x-jng" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.apps.nbu.files/.gateway.preview.PreviewActivity" />
+            <set name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.DEFAULT" />
+                <staticType name="image/x-cmu-raster" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.apps.nbu.files/.gateway.preview.PreviewActivity" />
+            <set name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.DEFAULT" />
+                <staticType name="image/x-portable-pixmap" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.apps.nbu.files/.gateway.preview.PreviewActivity" />
+            <set name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.DEFAULT" />
+                <staticType name="image/x-canon-cr2" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.messaging/.ui.conversation.LaunchConversationActivity" match="200000" always="true" set="1">
+            <set name="com.google.android.apps.messaging/.ui.conversation.LaunchConversationActivity" />
+            <filter>
+                <action name="android.intent.action.SENDTO" />
+                <cat name="android.intent.category.DEFAULT" />
+                <scheme name="mmsto" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.apps.nbu.files/.gateway.preview.PreviewActivity" />
+            <set name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.DEFAULT" />
+                <staticType name="image/x-photoshop" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.apps.nbu.files/.gateway.preview.PreviewActivity" />
+            <set name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.DEFAULT" />
+                <staticType name="image/x-sony-arw" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.apps.nbu.files/.gateway.preview.PreviewActivity" />
+            <set name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.DEFAULT" />
+                <staticType name="image/x-fuji-raf" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.apps.nbu.files/.gateway.preview.PreviewActivity" />
+            <set name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.DEFAULT" />
+                <staticType name="image/vnd.djvu" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.apps.nbu.files/.gateway.preview.PreviewActivity" />
+            <set name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.DEFAULT" />
+                <staticType name="image/x-xbitmap" />
+            </filter>
+        </item>
+        <item name="com.android.dialer/.main.impl.MainActivity" match="200000" always="true" set="1">
+            <set name="com.android.dialer/.main.impl.MainActivity" />
+            <filter>
+                <action name="android.intent.action.DIAL" />
+                <cat name="android.intent.category.DEFAULT" />
+                <scheme name="tel" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.apps.nbu.files/.gateway.preview.PreviewActivity" />
+            <set name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.DEFAULT" />
+                <staticType name="image/x-pentax-pef" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.apps.nbu.files/.gateway.preview.PreviewActivity" />
+            <set name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.DEFAULT" />
+                <staticType name="image/x-coreldrawpattern" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.apps.nbu.files/.gateway.preview.PreviewActivity" />
+            <set name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.DEFAULT" />
+                <staticType name="video/webm" />
+            </filter>
+        </item>
+        <item name="com.android.launcher3/.uioverrides.QuickstepLauncher" match="100000" always="true" set="2">
+            <set name="com.android.launcher3/.uioverrides.QuickstepLauncher" />
+            <set name="com.android.settings/.FallbackHome" />
+            <filter>
+                <action name="android.intent.action.MAIN" />
+                <cat name="android.intent.category.HOME" />
+                <cat name="android.intent.category.DEFAULT" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.apps.nbu.files/.gateway.preview.PreviewActivity" />
+            <set name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.DEFAULT" />
+                <staticType name="image/tiff" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.apps.nbu.files/.gateway.preview.PreviewActivity" />
+            <set name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.DEFAULT" />
+                <staticType name="image/x-xwindowdump" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.apps.nbu.files/.gateway.preview.PreviewActivity" />
+            <set name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.DEFAULT" />
+                <staticType name="image/x-nikon-nrw" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.apps.nbu.files/.gateway.preview.PreviewActivity" />
+            <set name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.DEFAULT" />
+                <staticType name="image/gif" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.apps.nbu.files/.gateway.preview.PreviewActivity" />
+            <set name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.DEFAULT" />
+                <staticType name="image/x-rgb" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.apps.nbu.files/.gateway.preview.PreviewActivity" />
+            <set name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.DEFAULT" />
+                <staticType name="video/3gpp" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.apps.nbu.files/.gateway.preview.PreviewActivity" />
+            <set name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.DEFAULT" />
+                <staticType name="video/mpeg4" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.apps.nbu.files/.gateway.preview.PreviewActivity" />
+            <set name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.DEFAULT" />
+                <staticType name="image/x-jg" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.apps.nbu.files/.gateway.preview.PreviewActivity" />
+            <set name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.DEFAULT" />
+                <staticType name="image/pcx" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.messaging/.ui.conversation.LaunchConversationActivity" match="200000" always="true" set="1">
+            <set name="com.google.android.apps.messaging/.ui.conversation.LaunchConversationActivity" />
+            <filter>
+                <action name="android.intent.action.SENDTO" />
+                <cat name="android.intent.category.DEFAULT" />
+                <scheme name="sms" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.apps.nbu.files/.gateway.preview.PreviewActivity" />
+            <set name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.DEFAULT" />
+                <staticType name="image/x-coreldrawtemplate" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.apps.nbu.files/.gateway.preview.PreviewActivity" />
+            <set name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.DEFAULT" />
+                <staticType name="video/x-matroska" />
+            </filter>
+        </item>
+    </preferred-activities>
+    <persistent-preferred-activities />
+    <crossProfile-intent-filters />
+    <default-apps />
+</package-restrictions>
